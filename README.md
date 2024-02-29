@@ -1,23 +1,22 @@
-# TÍTULO DO PROJETO
+# CRC EMPRÉSTIMO
 
-`CURSO`
+Análise e Desenvolvimento de Sistemas
+Projeto - Eixo 4
 
-`DISCIPLINA`
-
-`SEMESTRE`
-
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto que está sendo desenvolvido é uma aplicação que vai permitir o gerenciamento de empréstimo de itens. Estes itens estarão separados por categorias e para fazer qualquer tipo de ação (empréstimo ou devolução) primeiramente é necessário um cadastro/autenticação;
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Brendon Guimarães Antunes
+* Cláudio Lopes Coelho Barroso
+* Fabricio Maia dos Santos
+* Gabriel Eduardo Palhares
+* Jansem Wallemberg Torquetti Maia
+* Leonardo Moreira Franco de Souza
 
 ## Orientador
 
-* Nome completo do professor 1
+* Leonardo Vilela Cardoso
 
 ## Instruções de utilização
 
