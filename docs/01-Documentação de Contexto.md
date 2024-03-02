@@ -1,34 +1,21 @@
 # Introdução
+No contexto acadêmico e corporativo, o empréstimo de equipamentos é uma prática comum. No entanto, muitas instituições enfrentam desafios ao gerenciar esse processo de forma eficiente. O sistema atual de empréstimo de equipamentos na PUC Minas - Praça da Liberdade é baseado em armazenamento local, o que limita sua escalabilidade e acessibilidade.
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este projeto visa superar essas limitações, proporcionando um sistema distribuído para o empréstimo de equipamentos. Com essa mudança, diversos usuários poderão acessar e utilizar os recursos de forma eficiente, independentemente de sua localização. Além disso, a implementação de autenticação aprimorada garantirá maior segurança e controle durante o processo de empréstimo.
+
+A reformulação desse sistema é crucial para atender às demandas crescentes e garantir uma experiência mais robusta e confiável. Os auxiliares e técnicos de informática que atuam no Centro de Recursos Computacionais da PUC Minas - Praça da Liberdade são o público-alvo, desempenhando um papel fundamental no gerenciamento do empréstimo de equipamentos aos alunos dos cursos de Tecnologia da Informação.
 
 ## Problema
-O problema apresentado nesse eixo é um sistema já existente de empréstimos de equipamentos como headset, controle joystick, mesa digitalizadora, oculos VR e Notebook. O sistema atual usa o armazenamento local e fica restrito ao uso de uma só maquina e um só usuário.
-
-O sistema será utilizado para empréstimo de equipamentos para alunos dos cursos de Tecnologia da Informação da PUC Minas - Praça da Liberdade.
+O problema central que enfrentamos é a limitação do sistema atual de empréstimo de equipamentos. Atualmente, ele é baseado em armazenamento local, o que restringe seu uso a uma única máquina e a um único usuário. Isso dificulta a escalabilidade e a acessibilidade.
 
 ## Objetivos
 
-O objetivo é desenvolver um sistema distribuido, visto que atualmente o sistema é local. E que tenha autenticação por usuário administrador, e que a cada emprestimo seja necessário autenticação do usuário solicitante.
+Nosso objetivo principal é desenvolver um sistema distribuído para o empréstimo de equipamentos. A mudança para um sistema distribuído permitirá que vários usuários acessem e utilizem os recursos de forma mais eficiente. Além disso, queremos implementar autenticação por usuário administrador e exigir autenticação do usuário solicitante a cada empréstimo.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A necessidade de reformulação surge das fragilidades e deficiências do sistema atual. Essas limitações afetam diretamente o desempenho da equipe de trabalho e prejudicam a experiência dos usuários. A aplicação já existe, mas sua reformulação é crucial para atender às demandas crescentes e garantir uma experiência mais robusta e confiável.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Nosso público-alvo são os auxiliares e técnicos de informática que atuam no Centro de Recursos Computacionais da PUC Minas - Praça da Liberdade. Esses profissionais utilizam a aplicação para gerenciar o empréstimo de equipamentos aos alunos dos cursos de Tecnologia da Informação.
