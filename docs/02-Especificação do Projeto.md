@@ -6,8 +6,8 @@ Os itens disponibilizados para empréstimo estão divididos em categoria. Os usu
 
 ## Personas
 
-|Pedro Paulo    | Informações:                       |                                        |
-|--------------------|------------------------------------|----------------------------------------|----------------------------------------|v
+|Pedro Paulo    | Informações:                       |                                        |                                             |
+|--------------------|------------------------------------|----------------------------------------|----------------------------------------|
 | ![persona1](img/Mateus.jpg) | **Idade:** 26 anos <br> **Ocupação:** Arquiteto |**Hobbies:**<br>● Marcenaria |**Frustrações:**<br>● Apesar do seu hobbie, Pedro morar em um apartamento pequeno e não consegue ter e armazenar todas as ferramentas que precisa para seu hobbie|
 
  
