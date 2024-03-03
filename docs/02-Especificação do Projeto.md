@@ -16,7 +16,7 @@ Os itens disponibilizados para empréstimo estão divididos em categoria. Os usu
 
 |Marcos    | Informações:                       |                                        |                                             |
 |--------------------|------------------------------------|----------------------------------------|----------------------------------------|
-| ![persona3](https://images.unsplash.com/photo-1569880153113-76e33fc52d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | **Idade:** 24 anos <br> **Ocupação:** Engenheiro |**Hobbies:** <br>● Fazenda |**Frustrações:** <br>● Por ter começado recentemente a mexer com plantas e animais, Marcos não dispõe do dinheiro ou espaço para ter os equipamentos necessários|
+| ![persona3](https://images.unsplash.com/photo-1569880153113-76e33fc52d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | **Idade:** 24 anos <br> **Ocupação:** Engenheiro |**Hobbies:** <br>● Plantação |**Frustrações:** <br>● Por ter começado recentemente a mexer com plantas e animais, Marcos não dispõe do dinheiro ou espaço para ter os equipamentos necessários|
 
 
  
@@ -27,7 +27,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Pedro  |Procurar ferramentas de marcenaria          | Concluir meus projetos pessoais de marcenaria               |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
