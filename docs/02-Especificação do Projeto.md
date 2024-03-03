@@ -1,10 +1,8 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+A ideia do projeto é um sistema de empréstimo de itens. Vamos imaginar o cenário que você precisa de um item específico por um determinado período, em caso de uma obra em casa, por exemplo. Em vez de ter de comprar este item e nunca mais o utilizar, ou em vez de pagar um preço alto e passar por um processo burocrático chato fazendo o aluguel com alguma empresa, o nossos sistema oferece um processo ágil com o mínimo de burocracia possívevl.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Os itens disponibilizados para empréstimo estão divididos em categoria. Os usuários só poderão utilizar o sistema após autenticação com sucesso.
 
 ## Personas
 
