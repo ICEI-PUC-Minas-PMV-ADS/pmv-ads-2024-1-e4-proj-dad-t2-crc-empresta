@@ -28,7 +28,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Pedro Paulo  |Procurar ferramentas de marcenaria          | Concluir meus projetos pessoais de marcenaria               |
-|Marcos       | Pegar emprestador um trator                 | Iniciar plantio emm grande escala |
+|Marcos       | Pegar emprestador um trator                 | Iniciar plantio em grande escala |
 |Paula Maria       | Um cavalete grande suficiente para uma tela 80 x 100                | Começar a trabalhar com telas maiores |
 
 
