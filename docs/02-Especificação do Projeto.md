@@ -14,6 +14,10 @@ Os itens disponibilizados para empréstimo estão divididos em categoria. Os usu
 |--------------------|------------------------------------|----------------------------------------|----------------------------------------|
 | ![persona2](https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | **Idade:** 24 anos <br> **Ocupação:** Professora |**Hobbies:** <br>● Pintura |**Frustrações:** <br>● Os materiais para pintura costumam ser caro e, por vezes, deixa de fazer algo pro falta de material necessário|
 
+|Marcos    | Informações:                       |                                        |                                             |
+|--------------------|------------------------------------|----------------------------------------|----------------------------------------|
+| ![persona3](https://images.unsplash.com/photo-1569880153113-76e33fc52d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | **Idade:** 24 anos <br> **Ocupação:** Engenheiro |**Hobbies:** <br>● Fazenda |**Frustrações:** <br>● Por ter começado recentemente a mexer com plantas e animais, Marcos não dispõe do dinheiro ou espaço para ter os equipamentos necessários|
+
 
  
 
