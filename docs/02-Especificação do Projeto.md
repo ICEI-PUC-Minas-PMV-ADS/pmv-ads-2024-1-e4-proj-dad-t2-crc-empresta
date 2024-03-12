@@ -6,20 +6,62 @@ Os itens disponibilizados para empréstimo estão divididos em categoria. Os usu
 
 ## Personas
 
-|Pedro Paulo    | Informações:                       |                                        |                                             |
-|--------------------|------------------------------------|----------------------------------------|----------------------------------------|
-| ![persona1](https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | **Idade:** 26 anos <br> **Ocupação:** Arquiteto |**Hobbies:**<br>● Marcenaria |**Frustrações:**<br>● Apesar do seu hobbie, Pedro morar em um apartamento pequeno e não consegue ter e armazenar todas as ferramentas que precisa para seu hobbie|
+As pessoas retratadas durante o processo de compreensão do problema são apresentadas nas figuras que seguem.
 
-|Paula Maria    | Informações:                       |                                        |                                             |
-|--------------------|------------------------------------|----------------------------------------|----------------------------------------|
-| ![persona2](https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | **Idade:** 24 anos <br> **Ocupação:** Professora |**Hobbies:** <br>● Pintura |**Frustrações:** <br>● Os materiais para pintura costumam ser caro e, por vezes, deixa de fazer algo pro falta de material necessário|
+<img align="left" src="img/pedro-persona.jpeg" width="220" height="220">
 
-|Marcos    | Informações:                       |                                        |                                             |
-|--------------------|------------------------------------|----------------------------------------|----------------------------------------|
-| ![persona3](https://images.unsplash.com/photo-1569880153113-76e33fc52d5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) | **Idade:** 24 anos <br> **Ocupação:** Engenheiro |**Hobbies:** <br>● Plantação |**Frustrações:** <br>● Por ter começado recentemente a mexer com plantas e animais, Marcos não dispõe do dinheiro ou espaço para ter os equipamentos necessários|
+### Pedro Paulo
+**Idade:** 26 anos<br>
+**Ocupação:** Arquiteto<br>
+**Hobbies:** Marcenaria<br>
+**Frustrações:** Apesar do seu hobbie, Pedro mora em um apartamento pequeno e não consegue ter e armazenar todas as ferramentas que precisa para seu hobbie.<br>
+**Motivação:** Facilitar o acesso a ferramentas de marcenaria em um espaço limitado, utilizando-as quando precisar sem a necessidade de as guardar em seu apartamento.<br>
 
+---
 
- 
+<img align="left" src="img/paula-persona.jpeg" width="220" height="220">
+
+### Paula Maria
+**Idade:** 24 anos<br>
+**Ocupação:** Professora <br>
+**Hobbies:** Pintura<br>
+**Frustrações:** Os materiais para pintura costumam ser caros e, por vezes, deixa de fazer algo pro falta de material necessário.<br>
+**Motivação:** Possibilitar a realização de projetos artísticos ao oferecer acesso a materiais de pintura de forma econômica e acessível.<br>
+
+---
+
+<img align="left" src="img/marcos-persona.jpeg" width="220" height="220">
+
+### Marcos
+**Idade:** 24 anos<br>
+**Ocupação:** Engenheiro<br>
+**Hobbies:** Plantação<br>
+**Frustrações:** Por ter começado recentemente a mexer com plantas e animais, Marcos não dispõe do dinheiro ou espaço para ter os equipamentos necessários.<br>
+**Motivação:** Permitir-se desenvolver seu hobby de plantação ao conseguir acesso a equipamentos e ferramentas essenciais, superando as limitações financeiras e de espaço.<br>
+
+---
+
+<img align="left" src="img/clara-persona.jpeg" width="220" height="220">
+
+### Clara Silva
+**Idade:** 30 anos<br>
+**Ocupação:** Engenheira de Computação<br>
+**Hobbies:** Jardinagem<br>
+**Frustrações:** Clara ama cuidar de plantas, mas mora em um apartamento sem espaço externo para ter um jardim próprio. Ela gostaria de ter acesso a ferramentas de jardinagem e vasos de plantas de forma temporária, sem precisar investir em itens que ocupariam espaço em sua casa.<br>
+**Motivação:** Facilitar sua paixão pela jardinagem ao ter acesso temporário a ferramentas e vasos de plantas, permitindo-lhe cultivar um jardim em seu apartamento sem custos significativos de espaço ou financeiros.<br>
+
+---
+
+<img align="left" src="img/rafael-persona.jpeg" width="220" height="220">
+
+### Rafael Oliveira
+**Idade:** 42 anos<br>
+**Ocupação:** Contador<br>
+**Hobbies:** Fotografia<br>
+**Frustrações:** Rafael ama fotografar, mas precisa de equipamentos específicos para determinados projetos, como lentes especiais ou tripés mais robustos, que são caros. Ele gostaria de acessar esses equipamentos temporariamente, sem ter que gastar uma grande quantia de dinheiro em algo que só usará ocasionalmente.<br>
+**Motivação:** Explorar sua paixão pela fotografia, tendo acesso temporário a equipamentos específicos essenciais, permitindo-se concretizar suas visões criativas sem a necessidade de adquirir equipamentos.<br>
+
+---
 
 ## Histórias de Usuários
 
@@ -30,6 +72,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Pedro Paulo  |Procurar ferramentas de marcenaria          | Concluir meus projetos pessoais de marcenaria               |
 |Marcos       | Pegar emprestador um trator                 | Iniciar plantio em grande escala |
 |Paula Maria       | Um cavalete grande suficiente para uma tela 80 x 100                | Começar a trabalhar com telas maiores |
+|Clara Silva       | Ferramentas de jardinagem e plantio                | Cultivar meu jardim em meu apartamento sem gastar muito dinheiro e ter que guardar ferramentas|
+|Rafael Oliveira       | Lente de 80mm e tripé profissional                | Capturar imagens de alta qualidade e alcançar resultados profissionais |
 
 
 ## Modelagem do Processo de Negócio 
