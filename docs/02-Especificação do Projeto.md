@@ -1,8 +1,8 @@
 # Especificações do Projeto
 
-A ideia do projeto é um sistema de empréstimo de itens. Vamos imaginar o cenário que você precisa de um item específico por um determinado período, em caso de uma obra em casa, por exemplo. Em vez de ter de comprar este item e nunca mais o utilizar, ou em vez de pagar um preço alto e passar por um processo burocrático chato fazendo o aluguel com alguma empresa, o nossos sistema oferece um processo ágil com o mínimo de burocracia possívevl.
+A ideia do projeto é um sistema de empréstimo de itens. Vamos imaginar o cenário que você precisa de um item por um determinado período, uma mesa digitalizadora, uma WebCam ou ate mesmo um fone, por exemplo. Você ira fazer o pedido do item pessoalmente e o funcionario ira coletar seu dados e registrar no sistema conjunto com o emprestimo do item.
 
-Os itens disponibilizados para empréstimo estão divididos em categoria. Os usuários só poderão utilizar o sistema após autenticação com sucesso.
+No caso o sistema será utilizado para o controle e segurança dos itens, sendo assim somente funcionarios terão acesso.
 
 ## Personas
 
@@ -12,10 +12,10 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ### Pedro Paulo
 **Idade:** 26 anos<br>
-**Ocupação:** Arquiteto<br>
-**Hobbies:** Marcenaria<br>
-**Frustrações:** Apesar do seu hobbie, Pedro mora em um apartamento pequeno e não consegue ter e armazenar todas as ferramentas que precisa para seu hobbie.<br>
-**Motivação:** Facilitar o acesso a ferramentas de marcenaria em um espaço limitado, utilizando-as quando precisar sem a necessidade de as guardar em seu apartamento.<br>
+**Ocupação:** Funcionario<br>
+**Hobbies:** Programar<br>
+**Frustrações:** O programa legado é muito confuso e pouco intuitivo.<br>
+**Motivação:** Facilitar o uso do mesmo no dia a dia.<br>
 
 ---
 
@@ -23,10 +23,10 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ### Paula Maria
 **Idade:** 24 anos<br>
-**Ocupação:** Professora <br>
-**Hobbies:** Pintura<br>
-**Frustrações:** Os materiais para pintura costumam ser caros e, por vezes, deixa de fazer algo pro falta de material necessário.<br>
-**Motivação:** Possibilitar a realização de projetos artísticos ao oferecer acesso a materiais de pintura de forma econômica e acessível.<br>
+**Ocupação:** Funcionario <br>
+**Hobbies:** Robótica<br>
+**Frustrações:** Tive muita dificuldade quando entrei na empresa para aprender como funcionava o sistema. <br>
+**Motivação:** Ter um sistema mais leve e fácil manipulação.<br>
 
 ---
 
@@ -34,32 +34,10 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ### Marcos
 **Idade:** 24 anos<br>
-**Ocupação:** Engenheiro<br>
+**Ocupação:** Funcionario<br>
 **Hobbies:** Plantação<br>
-**Frustrações:** Por ter começado recentemente a mexer com plantas e animais, Marcos não dispõe do dinheiro ou espaço para ter os equipamentos necessários.<br>
-**Motivação:** Permitir-se desenvolver seu hobby de plantação ao conseguir acesso a equipamentos e ferramentas essenciais, superando as limitações financeiras e de espaço.<br>
-
----
-
-<img align="left" src="img/clara-persona.jpeg" width="220" height="220">
-
-### Clara Silva
-**Idade:** 30 anos<br>
-**Ocupação:** Engenheira de Computação<br>
-**Hobbies:** Jardinagem<br>
-**Frustrações:** Clara ama cuidar de plantas, mas mora em um apartamento sem espaço externo para ter um jardim próprio. Ela gostaria de ter acesso a ferramentas de jardinagem e vasos de plantas de forma temporária, sem precisar investir em itens que ocupariam espaço em sua casa.<br>
-**Motivação:** Facilitar sua paixão pela jardinagem ao ter acesso temporário a ferramentas e vasos de plantas, permitindo-lhe cultivar um jardim em seu apartamento sem custos significativos de espaço ou financeiros.<br>
-
----
-
-<img align="left" src="img/rafael-persona.jpeg" width="220" height="220">
-
-### Rafael Oliveira
-**Idade:** 42 anos<br>
-**Ocupação:** Contador<br>
-**Hobbies:** Fotografia<br>
-**Frustrações:** Rafael ama fotografar, mas precisa de equipamentos específicos para determinados projetos, como lentes especiais ou tripés mais robustos, que são caros. Ele gostaria de acessar esses equipamentos temporariamente, sem ter que gastar uma grande quantia de dinheiro em algo que só usará ocasionalmente.<br>
-**Motivação:** Explorar sua paixão pela fotografia, tendo acesso temporário a equipamentos específicos essenciais, permitindo-se concretizar suas visões criativas sem a necessidade de adquirir equipamentos.<br>
+**Frustrações:** O sistema legado roda somente em um computador pois o mesmo usa um banco de dados local, se este unico computador der problema.. putz.<br>
+**Motivação:** Permitir que o sistema rode em uma versão web para que todos possamos acessar em varios computadores.<br>
 
 ---
 
@@ -69,11 +47,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Pedro Paulo  |Procurar ferramentas de marcenaria          | Concluir meus projetos pessoais de marcenaria               |
-|Marcos       | Pegar emprestador um trator                 | Iniciar plantio em grande escala |
-|Paula Maria       | Um cavalete grande suficiente para uma tela 80 x 100                | Começar a trabalhar com telas maiores |
-|Clara Silva       | Ferramentas de jardinagem e plantio                | Cultivar meu jardim em meu apartamento sem gastar muito dinheiro e ter que guardar ferramentas|
-|Rafael Oliveira       | Lente de 80mm e tripé profissional                | Capturar imagens de alta qualidade e alcançar resultados profissionais |
+|Pedro Paulo  | Um sistema mais intuitivo.          | Fazer o emprestimo rapidamente para o conforto meu e do aluno. |
+|Marcos       | Um sistema distribuido.             | Poder acessar o sistema fácilmente. |
+|Paula Maria  | Facilitar o dia a dia do funcionario.  | Não precisar ficar quebrando a cabeça com a funcionalidades do sistema. |
+
+
 
 
 ## Modelagem do Processo de Negócio 
