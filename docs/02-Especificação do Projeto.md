@@ -216,9 +216,46 @@ gantt
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. Assim como na seção de Gerenciamento de Tempo, também foi utilizada a ferramenta `mermaid.js` para representar o Gerenciamento de Equipe.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+```mermaid
+gantt
+    title Gerenciamento de Equipe
+    todayMarker off
+    dateFormat  YYYY-MMM-DD
+    axisFormat %d/%b/%y
+
+    section Marketing
+    Definição do Problema: done, 2024-02-01, 4d
+    Reunião com Cliente: done, 4d
+    Formalização da Proposta: done, 7d
+    Plano de Execução: done, 7d
+    Feedback: done, 7d
+
+    section Design UI/UX
+    Alinhamento com PO: done, 2024-02-01, 7d
+    Prototipagem: done, 5d
+    Configuração da GUI: done, 10d
+    Feedback com Equipe de Desenvolvimento: done, 7d
+
+    section Desenvolvimento
+    Brainstorming: done, 2024-03-04, 7d
+    Arquitetura da solução: done, 7d
+    Implementação da Solução: 70d
+    Feedback: 7d
+
+    section Testes
+    Plano de Testes: 2024-03-04, 31d
+    Testes de Unidades: 20d
+    Testes de Integração: 20d
+    Testes de Sistemas: 20d
+
+
+    section Equipe completa
+    Considerações finais: 2024-06-03, 10d
+    Plano de Apresentação: 7d
+    Apresentação e Entrega: 7d
+```
 
 ## Gestão de Orçamento
 
