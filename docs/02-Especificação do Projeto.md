@@ -162,9 +162,57 @@ Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o ger
 
 ![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las. Neste projeto, foi utilizada a ferramenta `mermaid.js` para criar o diagrama. Segue a [documentação](https://mermaid.js.org/syntax/gantt.html) da ferramenta para consulta.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+```mermaid
+gantt
+    title Gerenciamento de Tempo
+    todayMarker off
+    dateFormat  YYYY-MMM-DD
+    axisFormat %d/%b/%y
+
+    section 1ª Etapa
+    Início do Projeto: done, 2024-02-01, 31d
+    Encontro inicial: done, t1, 2024-02-09, 1d
+    Definição do Projeto: done, t2, after t1, 3d
+    Documentação de Contexto: done, after t2, 5d
+    Especificação do Problema: 4d
+    Metodologia do Projeto: 5d
+    Arquitetura da solução: 5d
+    Fim da Etapa 1: milestone, 2024-03-03, 0d
+
+    section 2ª Etapa
+    Backend - API: 35d
+    Avaliação do Modelo de Dados: a1, 2024-03-04, 3d
+    Implementação do NoSQL: 5d
+    Implementação da API: 20d 
+    Testes de Unidade: 4d
+    Atualizar documentação: 2d
+    Fim da Etapa 2: milestone, 2024-04-07, 0d
+
+    section 3ª Etapa
+    Frontend - Web: 28d
+    Projeto de Interface Web: 2024-04-08, 7d
+    Implementação de Funcionalidades: 14d 
+    Testes de Integração: 4d
+    Atualizar documentação: 2d
+    Fim da Etapa 3: milestone, 2024-05-05, 0d
+
+    section 4ª Etapa
+    Mobile: 28d
+    Projeto de interface Mobile: 2024-05-06, 7d
+    Implementação de Funcionalidades: 14d 
+    Testes de Sistema: 4d
+    Atualizar documentação: 2d
+    Fim da Etapa 4: milestone, 2024-06-02, 0d
+
+    section 5ª Etapa
+    Projeto Final: 21d
+    Considerações finais: 2024-06-03, 7d
+    Entrega da solução: 7d
+    Apresentação: 6d
+    Fim da Etapa 5: milestone, 2024-06-23, 0d
+```
 
 ## Gerenciamento de Equipe
 
