@@ -261,4 +261,12 @@ gantt
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+|Recursos Necessários | Custo estimado (R$)                |
+|--|-------------------------------------------------------|
+| Hardware |  R$60.000 |
+| Marketing |  R$25.000 |
+| Recursos Humanos | R$180.000 |
+| Rede |  R$15.000 |
+| Software |  R$20.000 |
+| Serviços em Nuvem |  R$15.000 |
+| **TOTAL** |  R$315.000 |
