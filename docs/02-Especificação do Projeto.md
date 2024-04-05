@@ -1,18 +1,19 @@
 # Especificações do Projeto
 
-A ideia do projeto é um sistema de empréstimo de itens. Vamos imaginar o cenário que você precisa de um item por um determinado período, uma mesa digitalizadora, uma WebCam ou ate mesmo um fone, por exemplo. Você ira fazer o pedido do item pessoalmente e o funcionario ira coletar seu dados e registrar no sistema conjunto com o emprestimo do item.
+A ideia do projeto é um sistema de empréstimo de itens. Vamos imaginar o cenário em que você precisa de um item por um determinado período, uma mesa digitalizadora, uma WebCam ou até mesmo um fone, por exemplo. Você irá fazer o pedido do item pessoalmente e o funcionário irá coletar seu dados e registrar no sistema conjunto com o empréstimo do item.
 
-No caso o sistema será utilizado para o controle e segurança dos itens, sendo assim somente funcionarios terão acesso.
+No caso o sistema será utilizado para o controle e segurança dos itens, sendo assim somente funcionários terão acesso.
 
 ## Personas
 
 As pessoas retratadas durante o processo de compreensão do problema são apresentadas nas figuras que seguem.
 
 <img align="left" src="img/pedro-persona.jpeg" width="220" height="220">
+<br>
 
 ### Pedro Paulo
 **Idade:** 26 anos<br>
-**Ocupação:** Funcionario<br>
+**Ocupação:** Funcionário<br>
 **Hobbies:** Programar<br>
 **Frustrações:** O programa legado é muito confuso e pouco intuitivo.<br>
 **Motivação:** Facilitar o uso do mesmo no dia a dia.<br>
@@ -20,10 +21,11 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 ---
 
 <img align="left" src="img/paula-persona.jpeg" width="220" height="220">
+<br>
 
 ### Paula Maria
 **Idade:** 24 anos<br>
-**Ocupação:** Funcionario <br>
+**Ocupação:** Funcionário <br>
 **Hobbies:** Robótica<br>
 **Frustrações:** Tive muita dificuldade quando entrei na empresa para aprender como funcionava o sistema. <br>
 **Motivação:** Ter um sistema mais leve e fácil manipulação.<br>
@@ -34,10 +36,10 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ### Marcos
 **Idade:** 24 anos<br>
-**Ocupação:** Funcionario<br>
+**Ocupação:** Funcionário<br>
 **Hobbies:** Plantação<br>
-**Frustrações:** O sistema legado roda somente em um computador pois o mesmo usa um banco de dados local, se este unico computador der problema.. putz.<br>
-**Motivação:** Permitir que o sistema rode em uma versão web para que todos possamos acessar em varios computadores.<br>
+**Frustrações:** O sistema legado roda somente em um computador, pois o mesmo usa um banco de dados local, se este único computador der problema... putz.<br>
+**Motivação:** Permitir que o sistema rode em uma versão web para que todos possamos acessar em vários computadores.<br>
 
 ---
 
@@ -47,9 +49,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Pedro Paulo  | Um sistema mais intuitivo.          | Fazer o emprestimo rapidamente para o conforto meu e do aluno. |
-|Marcos       | Um sistema distribuido.             | Poder acessar o sistema fácilmente. |
-|Paula Maria  | Facilitar o dia a dia do funcionario.  | Não precisar ficar quebrando a cabeça com a funcionalidades do sistema. |
+|Pedro Paulo  | Um sistema mais intuitivo.          | Fazer o empréstimo rapidamente para o meu conforto e do cliente. |
+|Marcos       | Um sistema distribuído.             | Poder acessar o sistema facilmente. |
+|Paula Maria  | Facilitar o dia a dia do funcionário.  | Não precisar ficar quebrando a cabeça com as funcionalidades do sistema. |
 
 
 
