@@ -1,7 +1,9 @@
 # CRC EMPRÉSTIMO
 
 `Análise e Desenvolvimento de Sistemas`
+
 `Projeto: Desenvolvimento de uma aplicação distribuída`
+
 `Eixo 4`
 
 O projeto que está sendo desenvolvido é uma aplicação que vai permitir o gerenciamento de empréstimo de itens. Estes itens estarão separados por categorias e para fazer qualquer tipo de ação (empréstimo ou devolução) primeiramente é necessário um cadastro/autenticação; 
