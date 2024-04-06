@@ -20,6 +20,18 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ---
 
+<img align="left" src="img/prince-akachi-i2hoD-C2RUA-unsplash.jpg)" width="220" height="220">
+<br>
+
+### Marcia
+**Idade:** 27 anos<br>
+**Ocupação:** Empreendedora<br>
+**Hobbies:** Cuidar de planta<br>
+**Frustrações:** Não ter acesso a um sistema mobile que possa ser utilizado para fazer trocas<br>
+**Motivação:** Marcia não gostaria de ter de comprar um notebook apenas para poder utilizar um sistema de trocas. E a rotina de troca acontece com frequência. Um sistema mobile ajudaria demais nos negócios e até mesmo na vida pessoal.<br>
+
+---
+
 <img align="left" src="img/paula-persona.jpeg" width="220" height="220">
 <br>
 
