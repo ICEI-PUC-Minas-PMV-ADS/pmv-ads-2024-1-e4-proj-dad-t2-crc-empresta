@@ -18,17 +18,6 @@ namespace ApiCrcEmpresta.Controllers
             _MongoDbContext = context;
         }
  
-        [HttpPost("Create")]
-        public async Task<ActionResult> Create(User user)
-        {
-            if (user.Perfil != Perfil.Administrador)
-            {
-                return Unauthorized("Apenas administradores têm permissão para criar usuários.");
-            }
-            await _MongoDbContext.Users.InsertOneAsync(user);
-            return Ok(user);
-        }
-
         [AllowAnonymous]
         [HttpPost("authenticate")]
         public async Task<ActionResult> Authenticate(AuthenticateDto model)
@@ -40,6 +29,40 @@ namespace ApiCrcEmpresta.Controllers
             var jwt = jwtTokenGenerate.Generate(userDb);
 
             return Ok(new { JwtToken = jwt });
+        }
+        
+        [HttpPost("Create")]
+        public async Task<ActionResult> Create(User user)
+        {
+            if (user.Perfil != Perfil.Administrador)
+            {
+                return Unauthorized("Apenas administradores têm permissão para criar usuários.");
+            }
+            await _MongoDbContext.Users.InsertOneAsync(user);
+            return Ok(user);
+        }
+        
+        [HttpPut("Edit/{id}")]
+        public async Task<ActionResult> UpdateItemName(string id, [FromBody] User newUser)
+        {
+            var user = await _MongoDbContext.Users.Find(i => i.Id == id).FirstOrDefaultAsync();
+            if (user == null) return NotFound();
+
+            user.Name = newUser.Name;
+            user.Password = newUser.Password;
+            user.Perfil = newUser.Perfil;
+            await _MongoDbContext.Users.ReplaceOneAsync(i => i.Id == id, user);
+
+            return NoContent();
+        }
+        
+        [HttpDelete("Delete/{id}")]
+        public async Task<ActionResult> Delete(string id)
+        {
+            var user = await _MongoDbContext.Users.FindOneAndDeleteAsync(x => x.Id == id);
+            if (user == null) return NotFound();
+
+            return NoContent();
         }
 
         [HttpGet("GetAllUsers")]

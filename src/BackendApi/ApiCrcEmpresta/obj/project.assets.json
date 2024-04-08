@@ -1959,26 +1959,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\1376511\\.nuget\\packages\\": {}
+    "C:\\Users\\Brend\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1376511\\Desktop\\Projeto facul\\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\\src\\BackendApi\\ApiCrcEmpresta\\ApiCrcEmpresta\\ApiCrcEmpresta.csproj",
+      "projectUniqueName": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\\src\\BackendApi\\ApiCrcEmpresta\\ApiCrcEmpresta.csproj",
       "projectName": "ApiCrcEmpresta",
-      "projectPath": "C:\\Users\\1376511\\Desktop\\Projeto facul\\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\\src\\BackendApi\\ApiCrcEmpresta\\ApiCrcEmpresta\\ApiCrcEmpresta.csproj",
-      "packagesPath": "C:\\Users\\1376511\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1376511\\Desktop\\Projeto facul\\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\\src\\BackendApi\\ApiCrcEmpresta\\ApiCrcEmpresta\\obj\\",
+      "projectPath": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\\src\\BackendApi\\ApiCrcEmpresta\\ApiCrcEmpresta.csproj",
+      "packagesPath": "C:\\Users\\Brend\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\\src\\BackendApi\\ApiCrcEmpresta\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1376511\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Brend\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1991,11 +1989,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2038,7 +2031,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }
