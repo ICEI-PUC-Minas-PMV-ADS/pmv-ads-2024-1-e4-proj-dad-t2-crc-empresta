@@ -65,9 +65,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Marcos       | Um sistema distribuído.             | Poder acessar o sistema facilmente. |
 |Paula Maria  | Facilitar o dia a dia do funcionário.  | Não precisar ficar quebrando a cabeça com as funcionalidades do sistema. |
 
-
-
-
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
@@ -78,17 +75,19 @@ Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o 
 
 Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
 
-### Processo 1 – NOME DO PROCESSO
+### Processo 1 – Empréstimo ao Usuário
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
+```mermaid
+graph TD
+    A[Solicitação de Empréstimo] --> B[Verificação de Disponibilidade]
+    B --> C[Coleta de Dados do Usuário]
+    C --> D[Registro do Empréstimo]
+    D --> E[Entrega do Equipamento]
+    E --> F[Retorno do Equipamento]
+    F --> G[Verificação do Estado do Equipamento]
+    G --> H[Atualização do Status do Equipamento]
 
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
+```
 
 ## Indicadores de Desempenho
 
@@ -109,22 +108,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | ------ | ----------------------------------------- | ---- |
 | RF-001 | A aplicação deve ser distribuída, permitindo o acesso em vários computadores conectados à rede | ALTA | 
 | RF-002 | A aplicação deve permitir o empréstimo de equipamentos de informática   | ALTA |
-| RF-003 | A aplicação deve ser acessada apenas com administrador | MÍDIA | 
-| RF-004 | O empréstimo deve ser validado com a identidade acadêmica do aluno ou professor    | MÍDIA |
-| RF-005 | A devolução deve ser validada com a identificação do acadêmico do aluno ou professor | MÍDIA | 
+| RF-003 | A aplicação deve ser acessada apenas com administrador | MÉDIA | 
+| RF-004 | O empréstimo deve ser validado com a identidade acadêmica do aluno ou professor    | MÉDIA |
+| RF-005 | A devolução deve ser validada com a identificação do acadêmico do aluno ou professor | MÉDIA | 
 | RF-006 | A aplicação deve permitir o cadastro de novos itens    | ALTA |
 | RF-007 | A aplicação deve permitir a edição de itens | ALTA | 
 | RF-008 | A aplicação deve permitir a exclusão de itens   | ALTA |
-| RF-009 | A aplicação deve apresentar qual o código do usuário tomador | MÍDIA | 
-| RF-010 | A aplicação deve apresentar em qual local foi colocado o equipamento    | MÍDIA |
+| RF-009 | A aplicação deve apresentar qual o código do usuário tomador | MÉDIA | 
+| RF-010 | A aplicação deve apresentar em qual local foi colocado o equipamento    | MÉDIA |
 
 ### Requisitos não Funcionais
 
 | ID      | Descrição do Requisito   | Prioridade |
 | ------- | ------------------------- | ---- |
-| RNF-001 | O sistema deve ser responsivo para rodar em dispositivos móveis | MÍDIA | 
+| RNF-001 | O sistema deve ser responsivo para rodar em dispositivos móveis | MÉDIA | 
 | RNF-002 | Deve processar requisições do usuário em no máximo 3s |   BAIXA | 
-| RNF-003 | A aplicação deve ser intuitiva |   BAIXA | 
+| RNF-003 | A aplicação deve ser intuitiva |  BAIXA | 
 
 
 ## Restrições
@@ -138,31 +137,74 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 
 ## Diagrama de Casos de Uso
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
-
+```mermaid
+flowchart TD
+    A[Administrador] --> C
+    A --> D
+    A --> G
+    A --> H
+    A --> I
+    A --> J
+    A --> K
+    A --> L
+    A --> M
+    A --> N
+    A --> O
+B[Funcionário] --> D
+    B --> E
+    B --> F
+    B --> I
+    B --> K
+    B --> M
+subgraph "Casos de Uso"
+  C[Cadastro] --> |extend|D 
+  D[Login]
+  E --> |include|D
+  D --> |include|F
+  D --> |include|G
+  D --> |include|H
+  D --> |include|I
+  D --> |include|J
+  D --> |include|K
+  D --> |include|L
+  D --> |include|M
+  D --> |include|N
+  D --> |include|O
+  E[Registrar Empréstimo]  
+  F[Registrar devolução]
+  F --> |extend|E
+  G[Criar Item]
+  H[Modificar Item]
+  H --> |extend|G
+  I[Visulizar Item]
+  I --> |extend|G
+  J[Deletar Item]
+  J --> |extend|G
+  K[Visulizar Empréstimos]
+  K --> |extend|E
+  L[Criar categoria]
+  M[Visualizar categoria]
+  M --> |extend|L
+  N[Modificar categoria]
+  N --> |extend|L
+  O[Deletar categoria]
+  O --> |extend|L
+end
+```
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
+| Requisito Funcional | Registrar Empréstimo | Registrar Devolução | CRUD Item | CRUD Usuário |
+|----------------------|----------------------|----------------------|-----------|--------------|
+| RF-001               |                      |                      |           |              |
+| RF-002               |          X           |                      |           |              |
+| RF-003               |                      |                      |           |              |
+| RF-004               |          X           |                      |           |              |
+| RF-005               |                      |          X           |           |              |
+| RF-006               |                      |                      |     X     |              |
+| RF-007               |                      |                      |     X     |              |
+| RF-008               |                      |                      |     X     |              |
+| RF-009               |                      |                      |           |              |
+| RF-010               |                      |                      |           |              |
 
 # Gerenciamento de Projeto
 

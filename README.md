@@ -1,23 +1,22 @@
 # CRC EMPRÉSTIMO
 
-Análise e Desenvolvimento de Sistemas
-Projeto - Eixo 4
+`Análise e Desenvolvimento de Sistemas`
 
-O projeto que está sendo desenvolvido é uma aplicação que vai permitir o gerenciamento de empréstimo de itens. Estes itens estarão separados por categorias e para fazer qualquer tipo de ação (empréstimo ou devolução) primeiramente é necessário um cadastro/autenticação;
+`Projeto: Desenvolvimento de uma aplicação distribuída`
+
+`Eixo 4`
+
+O projeto que está sendo desenvolvido é uma aplicação que vai permitir o gerenciamento de empréstimo de itens. Estes itens estarão separados por categorias e para fazer qualquer tipo de ação (empréstimo ou devolução) primeiramente é necessário um cadastro/autenticação; 
 
 ## Integrantes
 
-* Brendon Guimarães Antunes
-* Cláudio Lopes Coelho Barroso
-* Fabricio Maia dos Santos
-* Gabriel Eduardo Palhares
-* Jansem Wallemberg Torquetti Maia
-* Leonardo Moreira Franco de Souza
+| [<img src="https://avatars.githubusercontent.com/u/57053841?v=4" width=115><br><sub>Brendon Guimarães Antunes</sub>](https://github.com/BrendonGuima) |[<img src="https://avatars.githubusercontent.com/u/115187389?v=4" width=115><br><sub>Cláudio Lopes Coelho Barroso</sub>](https://github.com/ClaudioBarroso) |[<img src="https://avatars.githubusercontent.com/u/114435981?v=4" width=115><br><sub>Fabrício Maia dos Santos</sub>](https://github.com/FabricioMaia) | [<img src="https://avatars.githubusercontent.com/u/34951844?v=4" width=115><br><sub>Gabriel Eduardo Palhares</sub>](https://github.com/minortypo) | [<img src="https://avatars.githubusercontent.com/u/114194318?v=4" width=115><br><sub>Jansem Wallemberg Torquetti Maia</sub>](https://github.com/JansemWall) | [<img src="https://avatars.githubusercontent.com/u/90872650?v=4" width=115><br><sub> Leonardo Moreira Franco de Souza</sub>](https://github.com/LeonardoMFS) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 
 ## Orientador
 
-* Leonardo Vilela Cardoso
-
+| [<img src="https://avatars.githubusercontent.com/u/100055105?v=4" width=115><br><sub>Leonardo Vilela Cardoso</sub>](https://github.com/lvcardoso)|
+| :---: |
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
@@ -47,3 +46,4 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Apresentação
 
 <li><a href="presentation/README.md"> Apresentação da solução</a></li>
+
