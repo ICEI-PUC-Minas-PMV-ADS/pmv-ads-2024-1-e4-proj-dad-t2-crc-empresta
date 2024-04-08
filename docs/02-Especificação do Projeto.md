@@ -20,7 +20,7 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ---
 
-<img align="left" src="img/prince-akachi-i2hoD-C2RUA-unsplash.jpg)" width="220" height="220">
+<img align="left" src="img/prince-akachi-i2hoD-C2RUA-unsplash.jpg" width="220" height="220">
 <br>
 
 ### Marcia
