@@ -170,22 +170,115 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão. A ferramenta utilizada para criação do diagrama foi o [Excalidraw](https://excalidraw.com/).
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Gerenciamento de Tempo](img/02-gerenciamento-de-tempo.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las. Neste projeto, foi utilizada a ferramenta `mermaid.js` para criar o diagrama. Segue a [documentação](https://mermaid.js.org/syntax/gantt.html) da ferramenta para consulta.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+```mermaid
+gantt
+    title Gerenciamento de Tempo
+    todayMarker off
+    dateFormat  YYYY-MMM-DD
+    axisFormat %d/%b/%y
+
+    section 1ª Etapa
+    Início do Projeto: done, 2024-02-01, 31d
+    Encontro inicial: done, t1, 2024-02-09, 1d
+    Definição do Projeto: done, t2, after t1, 3d
+    Documentação de Contexto: done, after t2, 5d
+    Especificação do Problema: 4d
+    Metodologia do Projeto: 5d
+    Arquitetura da solução: 5d
+    Fim da Etapa 1: milestone, 2024-03-03, 0d
+
+    section 2ª Etapa
+    Backend - API: 35d
+    Avaliação do Modelo de Dados: a1, 2024-03-04, 3d
+    Implementação do NoSQL: 5d
+    Implementação da API: 20d 
+    Testes de Unidade: 4d
+    Atualizar documentação: 2d
+    Fim da Etapa 2: milestone, 2024-04-07, 0d
+
+    section 3ª Etapa
+    Frontend - Web: 28d
+    Projeto de Interface Web: 2024-04-08, 7d
+    Implementação de Funcionalidades: 14d 
+    Testes de Integração: 4d
+    Atualizar documentação: 2d
+    Fim da Etapa 3: milestone, 2024-05-05, 0d
+
+    section 4ª Etapa
+    Mobile: 28d
+    Projeto de interface Mobile: 2024-05-06, 7d
+    Implementação de Funcionalidades: 14d 
+    Testes de Sistema: 4d
+    Atualizar documentação: 2d
+    Fim da Etapa 4: milestone, 2024-06-02, 0d
+
+    section 5ª Etapa
+    Projeto Final: 21d
+    Considerações finais: 2024-06-03, 7d
+    Entrega da solução: 7d
+    Apresentação: 6d
+    Fim da Etapa 5: milestone, 2024-06-23, 0d
+```
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. Assim como na seção de Gerenciamento de Tempo, também foi utilizada a ferramenta `mermaid.js` para representar o Gerenciamento de Equipe.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+```mermaid
+gantt
+    title Gerenciamento de Equipe
+    todayMarker off
+    dateFormat  YYYY-MMM-DD
+    axisFormat %d/%b/%y
+
+    section Marketing
+    Definição do Problema: done, 2024-02-01, 4d
+    Reunião com Cliente: done, 4d
+    Formalização da Proposta: done, 7d
+    Plano de Execução: done, 7d
+    Feedback: done, 7d
+
+    section Design UI/UX
+    Alinhamento com PO: done, 2024-02-01, 7d
+    Prototipagem: done, 5d
+    Configuração da GUI: done, 10d
+    Feedback com Equipe de Desenvolvimento: done, 7d
+
+    section Desenvolvimento
+    Brainstorming: done, 2024-03-04, 7d
+    Arquitetura da solução: done, 7d
+    Implementação da Solução: 70d
+    Feedback: 7d
+
+    section Testes
+    Plano de Testes: 2024-03-04, 31d
+    Testes de Unidades: 20d
+    Testes de Integração: 20d
+    Testes de Sistemas: 20d
+
+
+    section Equipe completa
+    Considerações finais: 2024-06-03, 10d
+    Plano de Apresentação: 7d
+    Apresentação e Entrega: 7d
+```
 
 ## Gestão de Orçamento
 
 O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
 
-![Orçamento](img/02-orcamento.png)
+|Recursos Necessários | Custo estimado (R$)                |
+|--|-------------------------------------------------------|
+| Hardware |  R$60.000 |
+| Marketing |  R$25.000 |
+| Recursos Humanos | R$180.000 |
+| Rede |  R$15.000 |
+| Software |  R$20.000 |
+| Serviços em Nuvem |  R$15.000 |
+| **TOTAL** |  R$315.000 |
