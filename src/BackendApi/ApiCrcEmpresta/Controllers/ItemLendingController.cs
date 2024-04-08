@@ -1,3 +1,5 @@
+using ApiCrcEmpresta;
+using ApiCrcEmpresta.Models;
 using CRCRegistros.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

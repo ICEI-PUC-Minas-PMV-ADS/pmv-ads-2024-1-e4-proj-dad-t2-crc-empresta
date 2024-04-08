@@ -3,7 +3,7 @@ using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 
 namespace ApiCrcEmpresta.Models;
-{
+
   public class Category
   {
       [BsonId]
@@ -14,4 +14,4 @@ namespace ApiCrcEmpresta.Models;
       
       public List<Item> Items { get; set; } = new List<Item>();
   }
-}
+
