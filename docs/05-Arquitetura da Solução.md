@@ -29,20 +29,20 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Para criar a web API, foi escolhida a linguagem CSharp na versão 6 devido às suas características e recursos específicos para desenvolvimento web. 
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+O framework Next.js foi utilizado para a construção do frontend web, aproveitando sua capacidade de renderização do lado do servidor (SSR) e sua estrutura de aplicação baseada em componentes, que facilita a criação de interfaces de usuário dinâmicas e responsivas.
+
+Para o desenvolvimento da aplicação móvel, optou-se pelo uso do React Native, uma vez que permite o desenvolvimento de aplicativos nativos para iOS e Android com um único código base em JavaScript. Isso possibilita uma maior produtividade e facilidade de manutenção, pois as atualizações e correções são aplicadas de forma centralizada.
+
+Entre as ferramentas utilizadas no desenvolvimento, destacam-se o Rider, que é uma IDE da JetBrains baseada em IntelliJ IDEA, conhecida por sua robustez e recursos avançados para desenvolvimento em CSharp. Além disso, foram utilizados o Visual Studio e o Visual Studio Code, ambos conhecidos pela sua eficiência e ampla gama de extensões que auxiliam no desenvolvimento em diversas linguagens e plataformas.
+
+Para o desenvolvimento da aplicação móvel para Android, foi utilizado o Android Studio, que é a IDE oficial do Google para o desenvolvimento de aplicativos Android, oferecendo suporte completo ao desenvolvimento em React Native e outras tecnologias para a plataforma Android.
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+A Web API foi hospedada na Azure, aproveitando a infraestrutura e os serviços em nuvem da Microsoft para garantir escalabilidade e confiabilidade. Já a aplicação web e a aplicação móvel foram hospedadas na Vercel, uma plataforma de hospedagem especializada em aplicações front-end, que oferece integração fácil com frameworks como Next.js e React Native, garantindo um ambiente de hospedagem otimizado para aplicações web e móveis.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
 
 ## Qualidade de Software
 
