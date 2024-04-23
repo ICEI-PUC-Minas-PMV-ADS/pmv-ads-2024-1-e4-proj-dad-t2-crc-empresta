@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "lMj5cz4qoVHzC0NrJBgc2JEFOf0pKs2BJsPxP585bbf9rFQGrCrfcNYJSCAagm5udIWAUQqwM+6w1wEnWzmYRQ==",
+  "dgSpecHash": "dCTG4ZUfTA6vqdDu7X2zoKVPG+azOFz4Dgtabw+E5lDi6hDA9i5gNBSyRy2oGQrK5o3aPSEHWNoslcQLLY/zCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Brend\\OneDrive\\Área de Trabalho\\pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta\\src\\BackendApi\\ApiCrcEmpresta\\ApiCrcEmpresta.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,11 @@
     "C:\\Users\\Brend\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\Brend\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
     "C:\\Users\\Brend\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\Brend\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512"
+    "C:\\Users\\Brend\\.nuget\\packages\\zstdsharp.port\\0.7.3\\zstdsharp.port.0.7.3.nupkg.sha512",
+    "C:\\Users\\Brend\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Brend\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Brend\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Brend\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
   ],
   "logs": []
 }
