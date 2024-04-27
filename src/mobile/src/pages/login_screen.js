@@ -6,7 +6,6 @@ const LoginScreen = () => {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Handle login logic here
     console.log('Username:', username);
     console.log('Password:', password);
   };

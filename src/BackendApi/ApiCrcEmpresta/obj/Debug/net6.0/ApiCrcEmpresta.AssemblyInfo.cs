@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCrcEmpresta")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+974d295715c1d5a3b80faae9ec8bdbc840564622")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCrcEmpresta")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCrcEmpresta")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
