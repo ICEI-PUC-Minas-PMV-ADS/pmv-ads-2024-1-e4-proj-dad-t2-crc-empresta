@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
-import { View, TextInput, Button, Text, StyleSheet } from 'react-native';
+import { View, TextInput, Button, StyleSheet } from 'react-native';
+
+import * as Font from 'expo-font';
+
+Font.loadAsync({
+  'poppins-regular': require('../components/fonts/poppins-font/Poppins-Regular.ttf'),
+  'poppins-bold': require('../components/fonts/poppins-font/Poppins-Bold.ttf'),
+});
 
 const LoginScreen = () => {
   const [username, setUsername] = useState('');
