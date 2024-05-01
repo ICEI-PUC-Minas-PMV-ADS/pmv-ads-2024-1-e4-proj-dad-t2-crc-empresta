@@ -69,4 +69,19 @@ body {
   .login-button:hover {
     background-color: #0056b3; 
   }
+
+  .forgot-password-link {
+    margin-top: 15px; 
+    text-align: center; 
+  }
+  
+  .forgot-password {
+    color: #888; 
+    text-decoration: none; 
+    font-size: 12px; 
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline; 
+  }
   
