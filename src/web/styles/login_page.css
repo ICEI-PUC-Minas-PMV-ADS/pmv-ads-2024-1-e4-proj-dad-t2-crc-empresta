@@ -65,6 +65,11 @@ body {
     cursor: pointer;
     outline: none;
   }
+
+  .login-button a {
+    color: #e6edf3; 
+    text-decoration: none; 
+  }
   
   .login-button:hover {
     background-color: #0056b3; 

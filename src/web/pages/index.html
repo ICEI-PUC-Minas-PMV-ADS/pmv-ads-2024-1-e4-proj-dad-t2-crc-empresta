@@ -15,14 +15,35 @@
         <img src="../assets/images/logo.png" alt="Logo" class="logo-image">
       <div class="logo-placeholder"></div>
       <div class="login-form">
-        <input type="text" placeholder="Usuário" class="input-field" />
-        <input type="password" placeholder="Senha" class="input-field" />
-        <button class="login-button">Login</button>
+        <input type="text" id="username" placeholder="Usuário" class="input-field" />
+        <input type="password" id="password" placeholder="Senha" class="input-field" />
+        <button class="login-button" onclick="login()">
+          Login
+        </button>
         <div class="forgot-password-link">
           <a href="#" class="forgot-password">Esqueceu sua senha?</a>
         </div>
       </div>
     </div>
   </div>
+
+  <script>
+    function login() {
+      // Get username and password
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Check if username and password are correct (for demonstration purpose, let's assume they are correct)
+      var isCredentialsCorrect = true;
+
+      // If credentials are correct, redirect to home page
+      if (isCredentialsCorrect) {
+        window.location.href = "home_page.html";
+      } else {
+        // If credentials are incorrect, show an error message (you can implement this)
+        console.log("Invalid username or password");
+      }
+    }
+  </script>
 </body>
 </html>
