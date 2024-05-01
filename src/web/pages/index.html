@@ -29,18 +29,13 @@
 
   <script>
     function login() {
-      // Get username and password
       var username = document.getElementById("username").value;
       var password = document.getElementById("password").value;
 
-      // Check if username and password are correct (for demonstration purpose, let's assume they are correct)
       var isCredentialsCorrect = true;
-
-      // If credentials are correct, redirect to home page
       if (isCredentialsCorrect) {
         window.location.href = "home_page.html";
       } else {
-        // If credentials are incorrect, show an error message (you can implement this)
         console.log("Invalid username or password");
       }
     }
