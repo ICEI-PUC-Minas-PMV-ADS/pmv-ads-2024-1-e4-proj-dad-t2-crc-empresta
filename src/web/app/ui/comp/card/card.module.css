@@ -1,0 +1,19 @@
+.card:hover {
+    background-color: #aac9de;
+}
+
+
+.card {
+    background-color: #e6edf3;
+    width: 20vw;
+    height: 10vw;
+    margin: 0 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+    flex: 0 0 30%;
+}

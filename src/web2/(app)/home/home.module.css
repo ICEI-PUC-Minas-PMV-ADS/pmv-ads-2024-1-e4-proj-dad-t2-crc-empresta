@@ -1,0 +1,71 @@
+.header {
+    background-color: #e6edf3;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+  }
+  
+.logo {
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%; 
+    overflow: hidden; 
+  }
+
+.logo img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+.userinfo {
+    display: flex;
+    align-items: flex-start; 
+  }
+
+.welcomemessage {
+    margin-right: 10px;
+  }
+  
+.logoutbtn,
+.configbtn {
+  margin-left: 10px;
+  text-decoration: none; 
+  color: #000; 
+}
+  
+.content {
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+  }
+
+.cardscontainer {
+    display: flex;
+}
+  
+.card:hover {
+    background-color: #aac9de;
+}
+
+
+.card {
+    background-color: #e6edf3;
+    width: 200px;
+    height: 150px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+.logoutbtn:hover,
+.configbtn:hover {
+    color: #777; 
+  }
+  

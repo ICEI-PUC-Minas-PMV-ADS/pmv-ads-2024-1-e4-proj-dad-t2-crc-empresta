@@ -1,44 +1,29 @@
-import styles from "./home.module.css"
-import Image from "next/image"
-import Link from "next/link"
+import Header from "../ui/comp/header"
+import Card from "../ui/comp/card/card"
 
 export default function Home() {
     return (
         <>
-            <header className={styles.header}>
-                <div className={styles.logo}>
-                    <Image
-                        width={250}
-                        height={190}
-                        src="/logo.png"
-                        alt="Logo" />
-                </div>
-                <div className={styles.usernfo}>
-                    <span>Bem-vindo!</span>
-                    
-                </div>
-            </header>
-            <div className={styles.content}>
-                <div className={styles.cardscontainer}>
+            <Header />
+            <div className="content">
+                <div className="cardscontainer">
 
-                <Link
-                    href="/emprestar"
-                    className={`${styles.card} ${styles.emprestar}`}>
-                <span>Pegar Emprestado</span>
-                </Link>
-                <Link
-                    href="/devolver"
-                    className={`${styles.card} ${styles.devolver}`}>
+                    <Card
+                        href="/emprestar">
+                        <span>Pegar Emprestado</span>
+                    </Card>
+                    <Card
+                        href="/devolver"
+                        >
                         <span>Devolver</span>
-                </Link >
-                <Link
-                    href="/historico"
-                    className={`${styles.card} ${styles.historico}`}>
+                    </Card >
+                    <Card
+                        href="/historico">
                         <span>Meu Histórico</span>
-                </Link >
+                    </Card >
                 </div>
             </div>
-            
-</>
-)
+
+        </>
+    )
 }
