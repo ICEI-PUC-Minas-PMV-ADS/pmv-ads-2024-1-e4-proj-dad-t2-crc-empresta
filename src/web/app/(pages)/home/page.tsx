@@ -1,5 +1,5 @@
-import Header from "../ui/comp/header"
-import Card from "../ui/comp/card/card-home"
+import Header from "../../ui/comp/header"
+import Card from "../../ui/comp/card/card-home"
 
 export default function Home() {
     return (

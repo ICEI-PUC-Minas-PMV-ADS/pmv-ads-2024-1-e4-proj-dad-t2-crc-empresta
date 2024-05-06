@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./login.module.css"
 
 import { useState } from 'react';
-import { authenticate } from '../lib/actions';
+import { authenticate } from '../../lib/actions';
 
 const Login = () => {
   const [name, setUsername] = useState('');
