@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const token = await authenticate(name, password);
+      await authenticate(name, password);
       window.location.href = '/home';
     } catch (error) {
       console.error('Erro ao autenticar:', error);
