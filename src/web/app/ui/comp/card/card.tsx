@@ -1,18 +1,17 @@
-import Link from "next/link";
 import styles from "./card.module.css"
 
 interface CardProps {
-    href: string;
-    className?: string;
+    className?: string;    
+    onClick?: () => void;
     children: React.ReactNode;
 }
 
-const Card: React.FC<CardProps> = ({ href, className = '', children, ...rest }) => {
+const Card: React.FC<CardProps> = ({  className = '',onClick, children, ...rest }) => {
     return (
-        <Link href={href} className={`${className} ${styles.card}`} {...rest}>
+        <div onClick={onClick} className={`${className} ${styles.card}`} {...rest} >
                 {children}
             
-        </Link>
+        </div>
     );
 };
 
