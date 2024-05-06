@@ -24,6 +24,31 @@ export async function authenticate(name: string, password: string): Promise<stri
     throw error;
   }
 }
+export async function getAllItems(): Promise<any[]> {
+  try {
+    const token = localStorage.getItem('accessToken');
+    if (!token) {
+      throw new Error('Token não encontrado');
+    }
+
+    const response = await fetch('https://apicrcempresta.azurewebsites.net/api/Item/GetAll', {
+      method: 'GET',
+      headers: {
+        'Authorization': `Bearer ${token}`,
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error('Erro ao obter itens');
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error('Erro ao obter itens:', error);
+    throw error;
+  }
+}
 export async function lendItem(itemId: string): Promise<void> {
   try {
     const token = localStorage.getItem('accessToken');
@@ -49,31 +74,6 @@ export async function lendItem(itemId: string): Promise<void> {
     window.location.reload();
   } catch (error) {
     console.error('Erro ao emprestar item:', error);
-    throw error;
-  }
-}
-export async function getAllItems(): Promise<any[]> {
-  try {
-    const token = localStorage.getItem('accessToken');
-    if (!token) {
-      throw new Error('Token não encontrado');
-    }
-
-    const response = await fetch('https://apicrcempresta.azurewebsites.net/api/Item/GetAll', {
-      method: 'GET',
-      headers: {
-        'Authorization': `Bearer ${token}`,
-      },
-    });
-
-    if (!response.ok) {
-      throw new Error('Erro ao obter itens');
-    }
-
-    const data = await response.json();
-    return data;
-  } catch (error) {
-    console.error('Erro ao obter itens:', error);
     throw error;
   }
 }
