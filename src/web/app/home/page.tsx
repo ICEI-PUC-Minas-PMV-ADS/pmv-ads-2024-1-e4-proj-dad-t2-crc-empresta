@@ -10,7 +10,7 @@ export default function Home() {
 
                     <Card
                         href="/emprestar">
-                        <span>Pegar Emprestado</span>
+                        <span>Emprestar</span>
                     </Card>
                     <Card
                         href="/devolver"

@@ -57,11 +57,11 @@ const Modal: React.FC<ModalProps> = ({ onClose }) => {
         </ul>
       </div>
     </div>
-    {showSuccessMessage && (
+    {/* {showSuccessMessage && (
         <div className={styles.successMessage}>
           Empréstimo realizado com sucesso!
         </div>
-      )}
+      )} */}
   </div>
 );
 };
