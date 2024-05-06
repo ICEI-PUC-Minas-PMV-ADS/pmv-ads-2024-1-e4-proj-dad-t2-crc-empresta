@@ -1,0 +1,17 @@
+.welcomemessage {
+  margin-right: 10px;
+}
+
+.logoutbtn,
+.configbtn {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+.logoutbtn:hover,
+.configbtn:hover {
+  color: #777;
+}
