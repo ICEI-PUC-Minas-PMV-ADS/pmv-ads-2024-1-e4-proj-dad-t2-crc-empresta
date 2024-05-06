@@ -7,7 +7,7 @@ interface CardProps {
     children: React.ReactNode;
 }
 
-const Card: React.FC<CardProps> = ({ href, className = '', children, ...rest }) => {
+const CardHome: React.FC<CardProps> = ({ href, className = '', children, ...rest }) => {
     return (
         <Link href={href} className={`${className} ${styles.card}`} {...rest} >
                 {children}
@@ -16,4 +16,4 @@ const Card: React.FC<CardProps> = ({ href, className = '', children, ...rest }) 
     );
 };
 
-export default Card;
+export default CardHome;

@@ -1,24 +1,41 @@
 'use client'
 import Image from "next/image";
 import styles from "./login.module.css"
-
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { authenticate, isAuthenticated } from '../../lib/actions';
 import { useState } from 'react';
-import { authenticate } from '../../lib/actions';
 
 const Login = () => {
   const [name, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-
-  const handleLogin = async (e: React.FormEvent) => {
-    e.preventDefault();
-
-    try {
-      await authenticate(name, password);
-      window.location.href = '/home';
-    } catch (error) {
-      console.error('Erro ao autenticar:', error);
-    }
-  };
+  const [password, setPassword] = useState('');  
+    const router = useRouter();
+  
+    useEffect(() => {
+      const checkAuthStatus = async () => {
+        try {
+          const authenticated = await isAuthenticated();
+          if (authenticated) {
+            router.push('/home');
+          }
+        } catch (error) {
+          console.error('Erro ao verificar autenticação:', error);
+        }
+      };
+  
+      checkAuthStatus();
+    }, []);
+  
+    const handleLogin = async (e: React.FormEvent) => {
+      e.preventDefault();
+  
+      try {
+        await authenticate(name, password);
+        router.push('/home');
+      } catch (error) {
+        console.error('Erro ao autenticar:', error);
+      }
+    };
   return (
     <div className={`${styles.loginpage} ${styles.corpo}`}>
       <div className={styles.backgroundimage}></div>
