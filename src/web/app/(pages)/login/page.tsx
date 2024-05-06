@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./login.module.css"
 
 import { useState } from 'react';
-import { authenticate } from '../lib/actions';
+import { authenticate } from '../../lib/actions';
 
 const Login = () => {
   const [name, setUsername] = useState('');
@@ -13,7 +13,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      const token = await authenticate(name, password);
+      await authenticate(name, password);
       window.location.href = '/home';
     } catch (error) {
       console.error('Erro ao autenticar:', error);

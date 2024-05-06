@@ -37,10 +37,6 @@ export async function lendItem(itemId: string): Promise<void> {
         'Authorization': `Bearer ${token}`,
         'Content-Type': 'application/json',        
       },
-      body: JSON.stringify({
-        "studentName": "string",
-        "studentId": "string"
-      }),
     });
     console.log(response)
     if (!response.ok) {
