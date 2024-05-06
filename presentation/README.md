@@ -5,6 +5,8 @@
 
 ###Etapa 2
 
+- [Video Leonardo](https://www.loom.com/share/9b93e622affd4567975d165e5971c08f?sid=0ba9ec3d-e76c-478a-8386-a46f7b2df69e)
+
 
 ###Etapa 3
 
