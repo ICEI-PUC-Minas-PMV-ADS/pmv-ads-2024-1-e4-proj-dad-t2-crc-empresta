@@ -31,14 +31,6 @@ etiquetas:
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -53,22 +45,17 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 
 ### Processo
 
-Será utilizado o metodo Scrum e a ferramenta utilizada será o trello, para acompanhamento das tarefas.
+Será utilizado o metodo Scrum e a ferramenta utilizada será o Projects do Github, para acompanhamento das tarefas.
 
-https://trello.com/b/uzIeu6ER/projeto
+[https://trello.com/b/uzIeu6ER/projeto](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/969)
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+VSCode - Editor de código.
+WhatsApp - Ferramentas de comunicação
+Figma - Ferramentas de desenho de tela
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. A ferramenta de comunicação utilizada possibilita a comunicação assincrona, possibilitando uma comuicação rápida e efetiva. Por fim, para criar wireframes utilizamos o figma, essa ferramenta por melhor captar as necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
