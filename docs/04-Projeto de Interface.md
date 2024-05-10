@@ -22,15 +22,23 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-![Exemplo de Wireframe](img/wireframe-example.png)
+### Tela de Login
+<img src="img/Frame.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
+### Tela Inicial - Home
+<img src="img/Wireframe-1.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
+
+### Tela de Empréstimo
+<img src="img/Wireframe-4.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
+
+### Tela de Empréstimo - "Modal do Item"
+<img src="img/Wireframe-6.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
+
+### Tela de devoulução - "Modal do Item"
+<img src="img/Wireframe-8.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
+
+### Tela de Histórico
+<img src="img/Wireframe-3.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
+
+
+
