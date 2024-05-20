@@ -9,12 +9,13 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-<img src="img/Diagrama-de-Fluxo.png" alt="Diagrama de Fluxo" style="width: 650px; height:auto;"/>
+<img src="img/Diagrama-de-Fluxo.drawio.png" alt="Diagrama de Fluxo" style="width: 650px; height:auto;"/>
+
 
 ## Wireframes
 
 ### Tela de Login
-<img src="img/Frame.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
+<img src="img/Frame.png" alt="Wireframe 1" style="width: 700px; height:auto;"/>
 
 ### Tela Inicial - Home
 <img src="img/Wireframe-1.png" alt="Wireframe 1" style="width: 650px; height:auto;"/>
