@@ -15,7 +15,6 @@ interface Item {
 export default function Home() {
     const [lentItems, setLentItems] = useState<Item[]>([]);
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const [selectedItemId, setSelectedItemId] = useState('');
 
     useEffect(() => {
         const fetchLentItems = async () => {
