@@ -47,7 +47,7 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 
 Será utilizado o metodo Scrum e a ferramenta utilizada será o Projects do Github, para acompanhamento das tarefas.
 
-[https://trello.com/b/uzIeu6ER/projeto](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/969)
+https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/969
 
 ### Ferramentas
 
