@@ -1,10 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
-
+Para o desenvolvimento deste trabalho, adotaremos a metodologia descrita a seguir, a qual abrangerá a relação de ambientes utilizados, a gestão do código fonte, definições dos processos, ferramentas e como a equipe se organizará e fará a gestão das tarefas ao longo do tempo disponível para a realização do projeto.
 
 ## Relação de Ambientes de Trabalho
 
@@ -53,6 +50,7 @@ Será utilizado o metodo Scrum e a ferramenta utilizada será o Projects do Gith
 
 https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/969
 
+<img src="img/Project.PNG" alt="Diagrama de Fluxo" style="width: 850px; height:auto;"/>
 
 ### Ferramentas
 
