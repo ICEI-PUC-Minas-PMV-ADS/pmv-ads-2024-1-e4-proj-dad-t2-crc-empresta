@@ -14,9 +14,9 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 ### Pedro Paulo
 **Idade:** 26 anos<br>
 **Ocupação:** Funcionário<br>
-**Hobbies:** Programar<br>
-**Frustrações:** O programa legado é muito confuso e pouco intuitivo.<br>
-**Motivação:** Facilitar o uso do mesmo no dia a dia.<br>
+**Hobbies:** Técnico<br>
+**Frustrações:** O programa lento é muito confuso e pouco intuitivo.<br>
+**Motivação:** Facilitar o uso e diminuir a lentidão do aplicativo.<br>
 
 ---
 
@@ -25,10 +25,10 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ### Marcia
 **Idade:** 27 anos<br>
-**Ocupação:** Empreendedora<br>
+**Ocupação:** Auxilar de TI<br>
 **Hobbies:** Cuidar de planta<br>
 **Frustrações:** Não ter acesso a um sistema mobile que possa ser utilizado para fazer trocas<br>
-**Motivação:** Marcia não gostaria de ter de comprar um notebook apenas para poder utilizar um sistema de trocas. E a rotina de troca acontece com frequência. Um sistema mobile ajudaria demais nos negócios e até mesmo na vida pessoal.<br>
+**Motivação:** O sistema fica associado apenas à um computador e usuário, dificultando o uso. Um sistema distribuido e mobile ajudaria..<br>
 
 ---
 
@@ -37,7 +37,7 @@ As pessoas retratadas durante o processo de compreensão do problema são aprese
 
 ### Paula Maria
 **Idade:** 24 anos<br>
-**Ocupação:** Funcionário <br>
+**Ocupação:** Lider Técnico <br>
 **Hobbies:** Robótica<br>
 **Frustrações:** Tive muita dificuldade quando entrei na empresa para aprender como funcionava o sistema. <br>
 **Motivação:** Ter um sistema mais leve e fácil manipulação.<br>
@@ -64,6 +64,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Pedro Paulo  | Um sistema mais intuitivo.          | Fazer o empréstimo rapidamente para o meu conforto e do cliente. |
 |Marcos       | Um sistema distribuído.             | Poder acessar o sistema facilmente. |
 |Paula Maria  | Facilitar o dia a dia do funcionário.  | Não precisar ficar quebrando a cabeça com as funcionalidades do sistema. |
+|Marcia       | Sistema Mobile. | Um sistema de facil acesso e manipulação. |
 
 ## Modelagem do Processo de Negócio 
 
@@ -73,7 +74,7 @@ Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o 
 
 ### Descrição Geral da Proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta é uma aplicação distribuida web e mobile de empréstimo de equipamentos de informártica, para uso de alunos dos cursos de técnologia da informação e funcionários técnicos do setor. A aplicação deverá armazenar o inventário dos equipamentos, ver a disponibilidade dos equipamentos, ter a função de empréstimo e devolução e autenticação de usuário no momento do empréstimo e devolução.
 
 ### Processo 1 – Empréstimo ao Usuário
 
