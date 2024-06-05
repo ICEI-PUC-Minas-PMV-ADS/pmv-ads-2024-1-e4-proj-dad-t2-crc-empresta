@@ -3,7 +3,7 @@ import Card from "@/app/ui/comp/card/card";
 import Header from "@/app/ui/comp/header";
 import { useState, useEffect, useMemo } from "react";
 import Modal from '@/app/ui/comp/modal/modal';
-import { getAllCat } from '@/app/lib/data';
+//import { getAllCat } from '@/app/lib/data';
 import { useDisclosure } from "@mantine/hooks";
 import { Category, Item } from "@/util/types";
 import { Alert, CheckIcon } from "@mantine/core";
@@ -18,18 +18,18 @@ export default function Emprestar() {
   const [selectedItemId, setSelectedItemId] = useState<string>('');
   const [notAvailable, setNotAvailable] = useState<boolean>(false);
 
-  useEffect(() => {
-    const fetchCategoriesData = async () => {
-      try {
-        const data = await getAllCat();
-        setCategories(data);
-      } catch (error) {
-        console.error('Erro ao obter categorias:', error);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchCategoriesData = async () => {
+  //     try {
+  //       const data = await getAllCat();
+  //       setCategories(data);
+  //     } catch (error) {
+  //       console.error('Erro ao obter categorias:', error);
+  //     }
+  //   };
 
-    fetchCategoriesData();
-  }, []);
+  //   fetchCategoriesData();
+  // }, []);
 
   const handleCardClick = async (catId: string, catName: string) => {
     setSelectedCatId(catId);
