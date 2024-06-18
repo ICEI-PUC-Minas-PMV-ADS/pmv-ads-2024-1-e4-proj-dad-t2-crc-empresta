@@ -45,12 +45,12 @@ export async function lendItem(itemId: string): Promise<void> {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${token}`,
-        'Content-Type': 'application/json',        
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
       }),
-        
-      
+
+
     });
     console.log(response)
     if (!response.ok) {
@@ -114,16 +114,16 @@ export async function returnItem(itemId: string): Promise<void> {
 import { ItemLendingHistory } from "@/util/types";
 
 export const fetchLendingHistory = async (token: string): Promise<ItemLendingHistory[]> => {
-    const response = await fetch(`https://apicrcempresta.azurewebsites.net/api/ItemLending/History/`, {
-        method: 'GET',
-        headers: {
-            'Authorization': `Bearer ${token}`,
-        },
-    });
+  const response = await fetch(`https://apicrcempresta.azurewebsites.net/api/ItemLending/History/`, {
+    method: 'GET',
+    headers: {
+      'Authorization': `Bearer ${token}`,
+    },
+  });
 
-    if (!response.ok) {
-        throw new Error('Erro ao obter o histórico de empréstimos');
-    }
+  if (!response.ok) {
+    throw new Error('Erro ao obter o histórico de empréstimos');
+  }
 
-    return await response.json();
+  return await response.json();
 };

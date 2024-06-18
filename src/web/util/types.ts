@@ -3,6 +3,7 @@ export interface Item {
     name: string;
     date: string;
     studentName: string;
+    code: string;
     isLend: boolean;
 }
 
