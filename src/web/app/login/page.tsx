@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "./login.module.css"
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { authenticate, isAuthenticated } from '../../lib/actions';
+import { authenticate, isAuthenticated } from '../lib/actions';
 import { useState } from 'react';
 
 const Login = () => {
@@ -38,7 +38,6 @@ const Login = () => {
     };
   return (
     <div className={`${styles.loginpage} ${styles.corpo}`}>
-      <div className={styles.backgroundimage}></div>
       <Image
         fill={true}
         src="/background_puc_blue.png"

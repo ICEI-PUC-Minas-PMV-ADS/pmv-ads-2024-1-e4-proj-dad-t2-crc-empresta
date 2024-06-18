@@ -1,7 +1,7 @@
 'use client'
 import { useState, useEffect, useMemo } from 'react';
 import { lendItem } from '@/app/lib/actions';
-//import { getCatToId } from '@/app/lib/data';
+import { getCatToId } from '@/app/lib/data';
 import styles from './modal.module.css';
 import { Category, Item, ModalProps } from '@/util/types';
 import { Modal, Button, Grid, Notification, Alert, Loader, Select } from '@mantine/core';
@@ -13,26 +13,26 @@ const Modale: React.FC<ModalProps> = ({ opened, catId, catName, onClose, onItemI
   const [timerRunning, setTimerRunning] = useState(false);
   const [selectItemId, setSelectItemId] = useState<string>('');
 
-  // const fetchItems = useMemo(() => async () => {
-  //   try {
-  //     const category: Category = await getCatToId(catId);
-  //     const availableItems = category.items.filter((item: Item) => !item.isLend);
-  //     return availableItems;
-  //   } catch (error) {
-  //     console.error('Erro ao obter itens:', error);
-  //     return [];
-  //   }
-  // }, [catId]);
+  const fetchItems = useMemo(() => async () => {
+    try {
+      const category: Category = await getCatToId(catId);
+      const availableItems = category.items.filter((item: Item) => !item.isLend);
+      return availableItems;
+    } catch (error) {
+      console.error('Erro ao obter itens:', error);
+      return [];
+    }
+  }, [catId]);
 
-  // useEffect(() => {
-  //   const fetchItemsData = async () => {
-  //     const data = await fetchItems();
-  //     setItems(data);
-  //     console.log(data)
-  //   };
+  useEffect(() => {
+    const fetchItemsData = async () => {
+      const data = await fetchItems();
+      setItems(data);
+      console.log(data)
+    };
 
-  //   fetchItemsData();
-  // }, [catId]);
+    fetchItemsData();
+  }, [catId]);
 
   const handleLendItem = async (itemId: string) => {
     try {
@@ -62,7 +62,7 @@ const Modale: React.FC<ModalProps> = ({ opened, catId, catName, onClose, onItemI
           <Select
             value={selectItemId}
             onChange={(value) => setSelectItemId(value || '')}
-            data={items.map((item) => ({ label: item.id, value: item.id }))}
+            data={items.map((item) => ({ label: item.code, value: item.id }))}
             placeholder="Selecione o ID"
             size="sm"
           />
