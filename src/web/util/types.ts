@@ -1,6 +1,8 @@
 export interface Item {
     id: string;
     name: string;
+    date: string;
+    studentName: string;
     isLend: boolean;
 }
 
@@ -24,4 +26,15 @@ export interface ReturnModalProps {
     //close?: () => void;
     opened: boolean;
     items: Item[];
+}
+
+export interface ItemLendingHistory {
+    id: string;
+    code: string;
+    studentName: string;
+    studentId: string;
+    name: string;
+    dateLend: string;
+    dateReturn: string | null;
+    status: string;
 }

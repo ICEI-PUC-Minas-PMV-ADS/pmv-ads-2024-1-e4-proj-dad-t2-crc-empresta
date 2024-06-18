@@ -110,3 +110,20 @@ export async function returnItem(itemId: string): Promise<void> {
     throw error;
   }
 }
+
+import { ItemLendingHistory } from "@/util/types";
+
+export const fetchLendingHistory = async (token: string): Promise<ItemLendingHistory[]> => {
+    const response = await fetch(`https://apicrcempresta.azurewebsites.net/api/ItemLending/History/`, {
+        method: 'GET',
+        headers: {
+            'Authorization': `Bearer ${token}`,
+        },
+    });
+
+    if (!response.ok) {
+        throw new Error('Erro ao obter o histórico de empréstimos');
+    }
+
+    return await response.json();
+};
