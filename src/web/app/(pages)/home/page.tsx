@@ -40,7 +40,6 @@ export default function Home() {
 
     return (
         <>
-            <Header />
             <div className="content">
                 <div className="cardscontainer">
                     <CardHome href="/emprestar">

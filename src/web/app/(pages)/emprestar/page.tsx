@@ -102,7 +102,6 @@ export default function Emprestar() {
 
   return (
     <>
-      <Header />
       {isItemLent && (
         <Alert variant="light" title="Êxito!" color="teal" icon={<CheckIcon />}>
           Empréstimo realizado com sucesso!
