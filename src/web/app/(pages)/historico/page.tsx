@@ -52,6 +52,7 @@ export default function Historico() {
                                     <thead>
                                         <tr className="border-b-2">
                                             <th className="pb-2 pt-1">Item</th>
+                                            <th className="pb-2 pt-1">Cod. Item</th>
                                             <th className="pb-2 pt-1">Aluno</th>
                                             <th className="pb-2 pt-1">Cod. de Pessoa</th>
                                             <th className="pb-2 pt-1">Data de Empréstimo</th>
@@ -62,6 +63,7 @@ export default function Historico() {
                                         {lendingHistory.map((history) => (
                                             <tr className="hover:bg-gray-300" key={history.id}>
                                                 <td className="p-1">{history.name}</td>
+                                                <td className="p-1">{history.code}</td>
                                                 <td className="p-1">{history.studentName}</td>
                                                 <td className="p-1">{history.studentId}</td>
                                                 <td className="p-1">{new Date(history.dateLend).toLocaleDateString()}</td>

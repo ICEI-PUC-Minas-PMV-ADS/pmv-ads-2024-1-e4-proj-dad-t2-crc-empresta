@@ -1,4 +1,5 @@
 'use client'
+
 export async function authenticate(name: string, password: string): Promise<string> {
   try {
     const response = await fetch('https://apicrcempresta.azurewebsites.net/api/User/authenticate', {

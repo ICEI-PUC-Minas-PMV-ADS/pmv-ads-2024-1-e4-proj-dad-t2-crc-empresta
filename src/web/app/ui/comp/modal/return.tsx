@@ -1,11 +1,8 @@
 import { returnItem} from '@/app/lib/actions';
+import { Item } from "@/util/types";
 import styles from './modal.module.css';
 import { Grid, GridCol, Table } from '@mantine/core';
 
-interface Item {
-  id: string;
-  name: string;
-}
 
 interface ModalProps {
   items: Item[];
@@ -23,6 +20,7 @@ const ReturnModal: React.FC<ModalProps> = ({ items, onClose }) => {
       console.error('Erro ao devolver item:', error);
     }
   };
+
 
   return (
     <div className={styles.modaloverlay}>
@@ -43,9 +41,9 @@ const ReturnModal: React.FC<ModalProps> = ({ items, onClose }) => {
                 {items.map(item => (
                   <tr key={item.id}>
                     <td className='py-1 px-4'> {item.name} </td>
-                    {/* <td className='py-1 px-4'>{item.studentName}</td>
+                    <td className='py-1 px-4'>{item.studentName}</td>
                     <td className='py-1 px-4'>{item.studentId}</td>
-                    <td className='py-1 px-4'>{new Date(item.dateLend).toLocaleDateString()}</td> */}
+                    <td className='py-1 px-4'>{new Date(item.dateLend).toLocaleDateString()}</td>
                     <td className='py-1 px-4'><button onClick={() => handleReturnItem(item.id)}>Devolver</button></td>
                   </tr>
                 ))}

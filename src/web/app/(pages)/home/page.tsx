@@ -22,11 +22,12 @@ export default function Home() {
                 const items = await getAllItems();
                 const lentItems = items.filter((item: Item) => item.isLend);
                 setLentItems(lentItems);
+                console.log(lentItems)
             } catch (error) {
                 console.error('Erro ao obter itens emprestados:', error);
             }
         };
-
+             
         fetchLentItems();
     }, []);
 

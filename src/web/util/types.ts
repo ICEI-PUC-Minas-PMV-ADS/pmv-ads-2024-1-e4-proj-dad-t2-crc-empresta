@@ -1,7 +1,7 @@
 export interface Item {
     id: string;
     name: string;
-    date: string;
+    dateLend: string;
     studentName: string;
     code: string;
     isLend: boolean;
@@ -11,6 +11,11 @@ export interface Category {
     id: string;
     name: string;
     items: Item[];
+}
+
+export interface EditCategory {
+    id: string;
+    name: string;
 }
 
 export interface ModalProps {
