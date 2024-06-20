@@ -44,3 +44,10 @@ export interface ItemLendingHistory {
     dateReturn: string | null;
     status: string;
 }
+
+export interface User {
+    id: string;
+    name: string;
+    email: string;
+    password: string;
+}

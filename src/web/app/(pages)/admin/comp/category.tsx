@@ -14,24 +14,27 @@ export default function Categorias() {
     const [isCreateModalOpen, setIsCreateModalOpen] = useState<boolean>(false);
     const [newCategoryName, setNewCategoryName] = useState<string>("");
 
-    useEffect(() => {
+    const fetchAndSetCategories = async () => {
         const token = localStorage.getItem('accessToken');
         if (token) {
-            fetchCategories(token)
-                .then((data: EditCategory[]) => {
-                    setCategories(data);
-                    setIsLoading(false);
-                })
-                .catch((error: Error) => {
-                    console.error('Erro ao obter as categorias:', error);
-                    setIsError(true);
-                    setIsLoading(false);
-                });
+            try {
+                const data = await fetchCategories(token);
+                setCategories(data);
+            } catch (error) {
+                console.error('Erro ao obter as categorias:', error);
+                setIsError(true);
+            } finally {
+                setIsLoading(false);
+            }
         } else {
             console.error('Token não encontrado');
             setIsError(true);
             setIsLoading(false);
         }
+    };
+
+    useEffect(() => {
+        fetchAndSetCategories();
     }, []);
 
     const handleEdit = (category: EditCategory) => {
@@ -47,6 +50,7 @@ export default function Categorias() {
                     const updatedCategory = await editCategory(token, selectedCategory);
                     setCategories(categories.map(cat => cat.id === updatedCategory.id ? updatedCategory : cat));
                     setIsEditModalOpen(false);
+                    fetchAndSetCategories(); // Recarrega os dados após salvar a edição
                 } catch (error) {
                     console.error('Erro ao editar categoria:', error);
                     setIsError(true);

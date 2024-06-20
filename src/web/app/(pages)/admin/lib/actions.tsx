@@ -1,6 +1,9 @@
 "use client";
+import axios from 'axios';
 
+const apiUrl = 'https://apicrcempresta.azurewebsites.net/api';
 import { EditCategory } from "@/util/types";
+import { User } from "@/util/types";
 
 export async function getAllItems(): Promise<any[]> {
     try {
@@ -91,4 +94,59 @@ export const createCategory = async (token: string, newCategory: { name: string 
 
     const data = await response.json();
     return data;
+};
+
+export interface Category {
+    id: string;
+    name: string;
+}
+
+export async function fetchUsers(token: string): Promise<User[]> {
+    const response = await fetch("https://apicrcempresta.azurewebsites.net/api/User/GetAllUsers", {
+        method: "GET",
+        headers: {
+            "Authorization": `Bearer ${token}`
+        }
+    });
+
+    if (!response.ok) {
+        throw new Error("Erro ao obter usuários");
+    }
+
+    const data = await response.json();
+    return data;
+}
+
+export async function editUser(token: string, user: User): Promise<User> {
+    const response = await fetch(`https://apicrcempresta.azurewebsites.net/api/User/Edit/${user.id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": `Bearer ${token}`
+        },
+        body: JSON.stringify(user)
+    });
+
+    if (!response.ok) {
+        throw new Error("Erro ao editar usuário");
+    }
+
+    const data = await response.json();
+    return data;
+}
+
+export async function deleteUser(token: string, userId: string): Promise<void> {
+    const response = await fetch(`https://apicrcempresta.azurewebsites.net/api/User/Delete/${userId}`, {
+        method: "DELETE",
+        headers: {
+            "Authorization": `Bearer ${token}`
+        }
+    });
+}
+
+export const createUser = async (token: string, name: string, email: string) => {
+    const response = await axios.post(`https://apicrcempresta.azurewebsites.net/User/Create`, { name, email }, {
+        headers: { "Authorization": `Bearer ${token}` }
+    });
+    return response.data;
 };
