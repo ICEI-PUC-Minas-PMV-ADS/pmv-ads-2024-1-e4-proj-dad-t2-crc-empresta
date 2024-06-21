@@ -9,6 +9,11 @@ export default function Header() {
         localStorage.removeItem('accessToken');
     }
 
+export default function Header() {
+    const logout = () => {
+        localStorage.removeItem('accessToken');
+    }
+
     return (
         <>
         <header className="header bg-white ">
