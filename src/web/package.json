@@ -9,11 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroicons/react": "^2.0.18",
-    "@mantine/core": "^7.9.1",
-    "@mantine/hooks": "^7.9.1",
-    "@mantine/modals": "^7.9.1",
-    "@mantine/vanilla-extract": "^7.9.1",
     "next": "14.2.3",
     "next-auth": "^5.0.0-beta.18",
     "postcss": "^8",
