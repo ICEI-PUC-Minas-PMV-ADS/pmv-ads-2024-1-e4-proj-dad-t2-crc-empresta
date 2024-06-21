@@ -1,12 +1,63 @@
 # Registro de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-01 - RF-01 | A aplicação deve ser distribuída, permitindo o acesso em vários computadores conectados à rede. | | |
+| | | 
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+#
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-02 - RF-02 | Validar a função de empréstimo e devolução de equipamentos. | |  |
+| | 
+ 
 
-## Avaliação
+ # 
+ | **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-03 - RF-03 | A aplicação deve ser acessada apenas com administrador | | |
+| |  
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+# 
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-04 - RF-04 | O empréstimo deve ser validado com a identidade acadêmica do aluno ou professor. | | |
+| |  
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+# 
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-05 - RF-05 | A devolução deve ser validada com a identidade acadêmica do aluno ou professor. |    |    |
+| Registro da tela: |
+
+# 
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-06 - RF-06 | Verificar se a aplicação permite criar novos itens. |    |    |
+| Registro da tela: |
+
+# 
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-07 - RF-07 | Verificar se a aplicação permite editar itens. |    |    |
+| Registro da tela: |
+
+# 
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-08 - RF-08 | Verificar se a aplicação permite excluir itens. |    |    |
+| Registro da tela: |
+
+# 
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-09 - RF-09 | Verificar se a aplicação mostra qual o codigo de pessoa do usuário tomador do empréstimo. |    |    |
+| Registro da tela: |
+
+# 
+| **ID** | **Descrição do teste** | **Descrição do resultado** | **Gravidade** |
+|:---: |:---: |:---: |:---: |
+| CT-10 - RF-10 | Verificar se a aplicação mostra em qual local foi colocado o equipamento.|    |    |
+| Registro da tela: |
+
+# 
