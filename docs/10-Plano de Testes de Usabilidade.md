@@ -40,72 +40,58 @@ Por fim, deve ser feita as seguintes perguntas para o usuário:
 ||O usuário tentará alcançar o resultado correto?|O usuário consegue notar que a ação correta está disponível?|O usuário consegue associar as ações disponíveis com o seu objetivo final?|O usuário vai perceber que foi feito um progresso na direção do seu objetivo?|
 |--|--|--|--|--|
 |**Tarefa 1: Emprestar item**|||||
-|Preencher campo de pesquisa|||||
-|Preencher filtros de pesquisa|||||
-|Pesquisar|||||
-|Identificar se os resultados foram satisfatórios|||||
+|Acessar tela de emprestimo.|Sim, o usuário consegue acessar a tela de emprestimo.|Sim, pois a tela está objetiva.|Sim, pois ele obtém sucesso com as suas ações.|Sim, pois ele obtém sucesso e as informações são claras e objetivas.|
+|Encontrar a categoria do item.|Sim, o usuário consegue acessar as categorias dos items.|Sim, pois a tela está objetiva.|Sim, pois ele obtém sucesso com as suas ações.|Sim, é aberto um pagina de seleção de itens daquela categoria escolhida.|
+|Escolher o item a ser emprestado.|Sim, o usuário consegue acessar a tela de itens a ser emprestado.|Sim, ele consegue notar que a itens na tela que podem ser emprestados.|Sim, pois o campo está disponível e é objetivo.|Sim, pois o item fica indisponivel da aba emprestimo significando que foi emprestado.|
 |--|--|--|--|--|
 |**Tarefa 2: Devolver item**|||||
-|Acessar a área de perguntas|||||
-|Identificar botão de adição de nova pergunta|||||
-|Preencher campos  de nova pergunta|||||
-|Finalizar a publicação da pergunta|||||
-|Identificar se a pergunta foi publicada com sucesso|||||
+|Acessar a tela de devolução|Sim, o usuário consegue acessar a tela de devolução.|Sim, pois a tela está objetiva.|Sim, pois ele obtém sucesso com as suas ações.|Sim, pois ele obtém sucesso e as informações são claras e objetivas.|
+|Escolher o item a ser devolvido|Sim, ele consegue visualizar e selecionar as opções.|Sim, pois ele consegue notar os itens emprestados.|Sim, pois esta claro que são itens emprestados que podem ser devolvidos.|Sim, pois as informações são claras e objetivas.|
 |--|--|--|--|--|
 |**Tarefa 3: Consulta ao histórico de empréstimos**|||||
-|Preencher campo de pesquisa|||||
-|Preencher filtros de pesquisa|||||
-|Pesquisar|||||
-|Finalizar a publicação da pergunta|||||
-|Conferir se os resultados desejados foram apresentados|||||
+|Acessar a tela de históricos|Sim, o usuário consegue acessar a tela de devolução.|Sim, pois a tela está objetiva contendo todo o historico de itens emprestados.|Sim, ele obtem todas as informações.|Sim, esta nítido.|
 |--|--|--|--|--|
 |**Tarefa 4: Login**|||||
-|Acessar área de interações|||||
-|Identificar o botão de adição de interação|||||
-|Preencher campos de nova interação|||||
-|Finalizar publicação da nova interação|||||
-|Identificar se a nova interação foi publicada com sucesso|||||
+|Acessar a pagina de login|Sim, o usuário consegue acessar a tela de login.|Sim, pois a tela está objetiva.|Sim, pois ele obtém sucesso com as suas ações.|Sim, pois as informações são claras e objetivas.|
+|Preencher os campos Usuário/Senha|Sim, o usuário consegue preencher os campos nescessarios para login.|Sim, está objetivo.|Sim, pois ele obtém sucesso com as suas ações.|Sim, pois é objetivo.|
+|Identificar se o login foi feito|Sim|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, é redirecionado para a pagina home.|
 |--|--|--|--|--|
 |**Tarefa 5: Criar item**|||||
-|Preencher campos para login|||||
-|Fazer login|||||
-|Identificar se o login foi feito|||||
+|Acessar pagina de crud item.|Sim, o usuário consegue acessar a tela de crud de item.|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, pois é objetivo.|
+|Precher dados do item.|Sim, o usuário consegue preencher os dados do item.|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, o item é criado.|
 |--|--|--|--|--|
 |**Tarefa 6: Editar item**|||||
-|Acessar o perfil|||||
-|Verificar interações postadas|||||
-|Acessar uma interação|||||
+|Acessar pagina de crud de itens.|Sim, o usuário consegue acessar a tela de crud de item.|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, pois é objetivo.|
+|Selecionar item a ser editado.|Sim, o usuario consegue visualizar todos os itens.|Sim, está claro.|Sim, obtém sucesso com as suas ações|Sim, o usuário consegue visualizar o botão de editar no item.|
+|Prencher campos de edição do item.|Sim, está objetivo.|Sim, está objetivo.|Sim, pois está bem especificado.|Sim, pois ele obtém sucesso na alteração do item e as informações são claras e objetivas.|
 |--|--|--|--|--|
 |**Tarefa 7: Excluir item**|||||
-|Preencher dados de cadastro|||||
-|Fazer cadastro|||||
-|Identificar se cadastro foi realizado|||||
+|Acessar pagina de crud de itens.|Sim, o usuário consegue acessar a tela de crud de item.|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, pois é objetivo.|
+|Identificar o item e fazer a exclusão do mesmo.|Sim, está objetivo.|Sim, está objetivo.|Sim, pois está bem especificado.|Sim, pois ele obtém sucesso na exclusão do item e as informações são claras e objetivas.|
 |--|--|--|--|--|
 |**Tarefa 8: Criar categoria**|||||
-|Preencher formulário de redefinição de senha|||||
-|Solicitar redefinição|||||
-|Identificar se redefinição foi feita|||||
+|Acessar pagina de crud de categoria.|Sim, o usuário consegue acessar a tela de crud de categorias.|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, pois é objetivo.|
+|Definir nome da categoria.|||||
 |--|--|--|--|--|
 |**Tarefa 9: Editar categoria**|||||
-|Preencher dados de cadastro|||||
-|Fazer cadastro|||||
-|Identificar se cadastro foi realizado|||||
+|Acessar pagina de crud de categoria.|Sim, o usuário consegue acessar a tela de crud de categorias.|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, pois é objetivo.|
+|Selecionar categoria a ser editada.|Sim, o usuario consegue visualizar todos as categorias.|Sim, está claro.|Sim, obtém sucesso com as suas ações|Sim, o usuário consegue visualizar o botão de editar na categoria.|
+|Prencher campos de edição do categoria.|Sim, está objetivo.|Sim, está objetivo.|Sim, pois está bem especificado.|Sim, pois ele obtém sucesso na alteração de nome da categoria e as informações são claras e objetivas.|
 |--|--|--|--|--|
 |**Tarefa 10: Excluir categoria**|||||
-|Preencher formulário de redefinição de senha|||||
-|Solicitar redefinição|||||
-|Identificar se redefinição foi feita|||||
+|Acessar pagina de crud de categoria.|Sim, o usuário consegue acessar a tela de crud de categorias.|Sim, está objetivo.|Sim, ele obtém sucesso com as suas ações.|Sim, pois é objetivo.|
+|Selecionar categoria a ser excluida.|Sim, está objetivo.|Sim, está objetivo.|Sim, pois está bem especificado.|Sim, pois ele obtém sucesso na exclusão da categoria conjunto com todos os itens contidos nela e as informações são claras e objetivas.|
  
 |||||
 |--|--|--|--|
 ||Você, em algum momento, sentiu frustração durante a realização desta tarefa?|De 0 a 5 (com 0 para nenhuma dificuldade e 5 para muita dificuldade) qual foi a dificuldade da realização desta tarefa?|De 0 a 5 (com 0 para nenhuma satisfação e 5 para muita satisfação) qual foi a satisfação da realização desta tarefa?|
-|**Tarefa 1: Emprestar item**||||
-|**Tarefa 2: Devolver item**||||
-|**Tarefa 3: Consulta ao histórico de empréstimos**||||
-|**Tarefa 4: Login**||||
-|**Tarefa 5: Criar item**||||
-|**Tarefa 6: Editar item**||||
-|**Tarefa 7: Excluir item**||||
-|**Tarefa 8: Criar categoria**||||
-|**Tarefa 9: Editar categoria**||||
-|**Tarefa 10: Excluir categoria**||||
+|**Tarefa 1: Emprestar item**|Não|0|5|
+|**Tarefa 2: Devolver item**|Não|0|5|
+|**Tarefa 3: Consulta ao histórico de empréstimos**|Não|0|5|
+|**Tarefa 4: Login**|Não|0|5|
+|**Tarefa 5: Criar item**|Não|0|5|
+|**Tarefa 6: Editar item**|Não|0|5|
+|**Tarefa 7: Excluir item**|Não|0|5|
+|**Tarefa 8: Criar categoria**|Não|0|5|
+|**Tarefa 9: Editar categoria**|Não|0|5|
+|**Tarefa 10: Excluir categoria**|Não|0|5|
