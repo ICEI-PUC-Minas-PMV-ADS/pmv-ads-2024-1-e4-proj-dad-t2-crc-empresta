@@ -65,13 +65,13 @@
 |||||
 |--|--|--|--|
 | |Você, em algum momento, sentiu frustração durante a realização desta tarefa?|De 0 a 5 (com 0 para nenhuma dificuldade e 5 para muita dificuldade) qual foi a dificuldade da realização desta tarefa?|De 0 a 5 (com 0 para nenhuma satisfação e 5 para muita satisfação) qual foi a satisfação da realização desta tarefa?|
-|**Tarefa 1: Emprestar item**||||
-|**Tarefa 2: Devolver item**||||
-|**Tarefa 3: Consulta ao histórico de empréstimos**||||
-|**Tarefa 4: Login**||||
-|**Tarefa 5: Criar item**||||
-|**Tarefa 6: Editar item**||||
-|**Tarefa 7: Excluir item**||||
-|**Tarefa 8: Criar categoria**||||
-|**Tarefa 9: Editar categoria**||||
-|**Tarefa 10: Excluir categoria**||||
+|**Tarefa 1: Emprestar item**|Não|0|5|
+|**Tarefa 2: Devolver item**|Não|0|5|
+|**Tarefa 3: Consulta ao histórico de empréstimos**|Não|0|5|
+|**Tarefa 4: Login**|Não|0|5|
+|**Tarefa 5: Criar item**|Não|0|5|
+|**Tarefa 6: Editar item**|Não|0|5|
+|**Tarefa 7: Excluir item**|Não|0|5|
+|**Tarefa 8: Criar categoria**|Não|0|5|
+|**Tarefa 9: Editar categoria**|Não|0|5|
+|**Tarefa 10: Excluir categoria**|Não|0|5|
