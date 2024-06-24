@@ -1,6 +1,4 @@
 'use client';
-
-import Header from "@/app/ui/comp/header";
 import { useState, useEffect } from "react";
 import { fetchUsers, editUser, deleteUser, createUser } from "../lib/actions";
 import { User } from "@/util/types";
@@ -16,9 +14,8 @@ export default function Users() {
     const [newUserName, setNewUserName] = useState<string>('');
     const [newUserEmail, setNewUserEmail] = useState<string>('');
 
-    const token = localStorage.getItem('accessToken');
-
-    const reloadData = () => {
+    const reloadData = async () => {
+        const token = localStorage.getItem('accessToken');
         if (token) {
             fetchUsers(token)
                 .then((data: User[]) => {
@@ -50,6 +47,7 @@ export default function Users() {
     const handleSaveEdit = async () => {
         console.log(selectedUser);
         if (selectedUser) {
+            const token = localStorage.getItem('accessToken');
             if (token) {
                 try {
                     await editUser(token, selectedUser);
@@ -66,6 +64,7 @@ export default function Users() {
     };
 
     const handleDelete = async (userId: string) => {
+        const token = localStorage.getItem('accessToken');
         if (token) {
             try {
                 await deleteUser(token, userId);
@@ -81,6 +80,7 @@ export default function Users() {
     };
 
     const handleCreate = async () => {
+        const token = localStorage.getItem('accessToken');
         if (token && newUserName && newUserEmail) {
             try {
                 await createUser(token, newUserName, newUserEmail);

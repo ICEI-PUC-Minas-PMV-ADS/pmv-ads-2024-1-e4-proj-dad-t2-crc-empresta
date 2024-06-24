@@ -5,12 +5,8 @@ import Card from "../../ui/comp/card/card"
 import ReturnModal from '../../ui/comp/modal/return';
 import { useState, useEffect } from 'react';
 import { getAllItems } from '@/app/lib/actions';
+import { Item } from "@/util/types";
 
-interface Item {
-  id: string;
-  name: string;
-  isLend: boolean;
-}
 
 export default function Home() {
     const [lentItems, setLentItems] = useState<Item[]>([]);
@@ -27,7 +23,7 @@ export default function Home() {
                 console.error('Erro ao obter itens emprestados:', error);
             }
         };
-             
+
         fetchLentItems();
     }, []);
 

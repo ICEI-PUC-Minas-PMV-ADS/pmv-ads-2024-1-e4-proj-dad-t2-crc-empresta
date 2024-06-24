@@ -42,7 +42,9 @@ const ReturnModal: React.FC<ModalProps> = ({ items, onClose }) => {
                   <tr key={item.id}>
                     <td className='py-1 px-4'> {item.name} </td>
                     <td className='py-1 px-4'>{item.studentName}</td>
-                    <td className='py-1 px-4'>{item.studentId}</td>
+                    <td className='py-1 px-4'>
+                      {/* {item.studentId} */}
+                      </td>
                     <td className='py-1 px-4'>{new Date(item.dateLend).toLocaleDateString()}</td>
                     <td className='py-1 px-4'><button onClick={() => handleReturnItem(item.id)}>Devolver</button></td>
                   </tr>

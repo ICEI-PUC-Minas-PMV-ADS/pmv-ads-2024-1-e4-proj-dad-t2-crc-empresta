@@ -1,3 +1,4 @@
+'use client';
 import { useState, useEffect, ChangeEvent } from 'react';
 import { Button, Modal, TextInput } from '@mantine/core'; // Removi o import do Checkbox, pois não está sendo utilizado
 

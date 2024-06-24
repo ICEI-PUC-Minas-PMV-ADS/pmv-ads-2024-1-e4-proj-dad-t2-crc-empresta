@@ -31,7 +31,6 @@ export interface ReturnModalProps {
     onClose: () => void;
     //close?: () => void;
     opened: boolean;
-    items: Item[];
 }
 
 export interface ItemLendingHistory {

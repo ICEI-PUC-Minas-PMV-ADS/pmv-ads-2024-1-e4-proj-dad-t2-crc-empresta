@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useEffect } from "react";
 import { fetchCategories, editCategory, deleteCategory, createCategory } from "../lib/actions";
 import { EditCategory } from "@/util/types";
