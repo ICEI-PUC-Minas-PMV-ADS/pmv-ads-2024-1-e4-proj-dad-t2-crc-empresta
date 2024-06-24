@@ -18,9 +18,9 @@ authors:
     family-names: "Vielela Cardoso"
     given-names: "Leonardo"
 keywords:
-  - Gestão
-  - Emprestimo
-  - Itens
+  - "Gestão"
+  - "Emprestimo"
+  - "Itens"
 repository-code: "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta"
 version: 1.0.0
 date-released: 2024-06-23
