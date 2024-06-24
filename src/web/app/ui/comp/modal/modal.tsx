@@ -56,27 +56,35 @@ const Modale: React.FC<ModalProps> = ({ opened, catId, catName, onClose, onItemI
 
   return (
     <div className={styles.modaloverlay}>
-    <div className={styles.modal}>
-      <span className={styles.close} onClick={onClose}>&times;</span>
-      <div className={styles.modalcontent}>
-        <h2>Itens Disponíveis</h2>
-        <ul>
-          {items.map(item => (
-            <li key={item.id}>
-              {item.name}
-              <button className={styles.itemButton} onClick={() => handleLendItem(item.id)}>Emprestar</button>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <Modal opened={opened} onClose={onClose} size="xl" title={`Itens Disponíveis - ${catName}`} centered>
+      <Grid>
+        <Grid.Col span={4}>
+          <Select
+            value={selectItemId}
+            onChange={(value) => setSelectItemId(value || '')}
+            data={items.map((item) => ({ label: item.code, value: item.id }))}
+            placeholder="Selecione o ID"
+            size="sm"
+          />
+        </Grid.Col>
+        <Grid.Col span={3}>
+          {items.find((item) => item.id === selectItemId)?.name}
+        </Grid.Col>
+        <Grid.Col span={2}></Grid.Col>
+        <Grid.Col span={3}>
+          <Button
+                loading={loading || timerRunning}
+                loaderProps={{ type: 'dots' }}
+                disabled={!selectItemId}
+                onClick={() => handleLendItem(selectItemId)}
+              >
+                Emprestar
+              </Button>
+        </Grid.Col>
+      </Grid>
+    </Modal>
     </div>
-    {/* {showSuccessMessage && (
-        <div className={styles.successMessage}>
-          Empréstimo realizado com sucesso!
-        </div>
-      )} */}
-  </div>
-);
+  );
 };
 
 export default Modale;

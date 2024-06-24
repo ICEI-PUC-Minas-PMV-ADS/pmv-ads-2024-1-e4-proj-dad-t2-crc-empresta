@@ -9,36 +9,30 @@ export default function Header() {
         localStorage.removeItem('accessToken');
     }
 
-export default function Header() {
-    const logout = () => {
-        localStorage.removeItem('accessToken');
-    }
-
     return (
         <>
-        <header className="header bg-white ">
-        <div className="logo">
-        <Link href="\">
-                <Image
-                    width={250}
-                    height={190}
-                    src="/logo.png"
-                    alt="Logo" />
+            <header className="header bg-white ">
+                <div className="logo">
+                    <Link href="\">
+                        <Image
+                            width={250}
+                            height={190}
+                            src="/logo.png"
+                            alt="Logo" />
                     </Link>
-            </div>
-            <div className="text-3xl">
-               CRC Empresta
-            </div>
-            <div className="gap-3 userinfo justify-right">
-                <Link href="\">
-                        <HomeIcon className="w-5 md:w-6"/>
-                </Link>
-                <button onClick={logout} title="Sair">
-                    <ArrowRightEndOnRectangleIcon className="w-5 md:w-6"/>
-                </button>
-            </div>            
-        </header>
-    </>
+                </div>
+                <div className="text-3xl">
+                    CRC Empresta
+                </div>
+                <div className="gap-3 userinfo justify-right">
+                    <Link href="\">
+                        <HomeIcon className="w-5 md:w-6" />
+                    </Link>
+                    <button onClick={logout} title="Sair">
+                        <ArrowRightEndOnRectangleIcon className="w-5 md:w-6" />
+                    </button>
+                </div>
+            </header>
+        </>
     )
 }
-

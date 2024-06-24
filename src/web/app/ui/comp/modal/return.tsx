@@ -14,8 +14,7 @@ const ReturnModal: React.FC<ModalProps> = ({ items, onClose }) => {
   const handleReturnItem = async (itemId: string) => {
     try {
       await returnItem(itemId);
-      onClose(); // Fecha a modal após a devolução bem-sucedida
-      // Recarrega a página após o empréstimo bem-sucedido
+      onClose();
       window.location.reload();
     } catch (error) {
       console.error('Erro ao devolver item:', error);
