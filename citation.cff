@@ -1,26 +1,26 @@
 message: Please cite this software using these metadata.
-title:
+title: "CRC Empresta"
 authors:
-  - family-names: Guimarães Antunes
-    given-names: Brendon
-  - family-names: Lopes Coelho Barroso
-    given-names: Cláudio
-  - family-names: Maia dos Santos
-    given-names: Fabrício
-  - family-names: Eduardo Palhares
-    given-names: Gabriel
-  - family-names: Wallemberg Torquetti Maia
-    given-names: Jansem
-  - family-names: Moreira Franco de Souza
-    given-names: Leonardo
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: Vielela Cardoso
-    given-names: Leonardo
+  - family-names: "Guimarães Antunes"
+    given-names: "Brendon"
+  - family-names: "Lopes Coelho Barroso"
+    given-names: "Cláudio"
+  - family-names: "Maia dos Santos"
+    given-names: "Fabrício"
+  - family-names: "Eduardo Palhares"
+    given-names: "Gabriel"
+  - family-names: "Wallemberg Torquetti Maia"
+    given-names: "Jansem"
+  - family-names: "Moreira Franco de Souza"
+    given-names: "Leonardo"
+  - name-suffix: "Professor"
+    affiliation: "PUC Minas"
+    family-names: "Vielela Cardoso"
+    given-names: "Leonardo"
 keywords:
   - Gestão
   - Emprestimo
   - Itens
-repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta
+repository-code: "https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-dad-t2-crc-empresta"
 version: 1.0.0
 date-released: 2024-06-23
