@@ -1,11 +1,11 @@
-import { returnItem} from '@/app/lib/actions';
-import { Item } from "@/util/types";
+import { returnItem } from '@/app/lib/actions';
+import { Item, ItemLendingHistory } from "@/util/types";
 import styles from './modal.module.css';
 import { Grid, GridCol, Table } from '@mantine/core';
 
 
 interface ModalProps {
-  items: Item[];
+  items: ItemLendingHistory[];
   onClose: () => void;
 }
 
@@ -31,6 +31,7 @@ const ReturnModal: React.FC<ModalProps> = ({ items, onClose }) => {
           <Table className='justify-items-center'>
             <thead>
               <tr>
+                <th className="pb-2 px-4 pt-1">Cód. Item</th>
                 <th className="pb-2 px-4 pt-1">Item</th>
                 <th className="pb-2 px-4 pt-1">Aluno</th>
                 <th className="pb-2 px-4 pt-1">Cod. de Pessoa</th>
@@ -38,17 +39,17 @@ const ReturnModal: React.FC<ModalProps> = ({ items, onClose }) => {
               </tr>
             </thead>
             <tbody>
-                {items.map(item => (
-                  <tr key={item.id}>
-                    <td className='py-1 px-4'> {item.name} </td>
-                    <td className='py-1 px-4'>{item.studentName}</td>
-                    <td className='py-1 px-4'>
-                      {/* {item.studentId} */}
-                      </td>
-                    <td className='py-1 px-4'>{new Date(item.dateLend).toLocaleDateString()}</td>
-                    <td className='py-1 px-4'><button onClick={() => handleReturnItem(item.id)}>Devolver</button></td>
-                  </tr>
-                ))}
+              {items.map(itemLending => (
+                <tr key={itemLending.id}>
+                  <td className='py-1 px-4'> {itemLending.code} </td>
+                  <td className='py-1 px-4'> {itemLending.name} </td>
+                  <td className='py-1 px-4'>{itemLending.studentName}</td>
+                  <td className='py-1 px-4'>{itemLending.studentId}
+                  </td>
+                  <td className='py-1 px-4'>{itemLending.dateLend}</td>
+                  <td className='py-1 px-4'><button onClick={() => handleReturnItem(itemLending.id)}>Devolver</button></td>
+                </tr>
+              ))}
             </tbody>
           </Table>
         </div>

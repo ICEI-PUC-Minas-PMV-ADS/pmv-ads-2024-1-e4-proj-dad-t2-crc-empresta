@@ -2,7 +2,7 @@
 
 import Header from "@/app/ui/comp/header";
 import { useState, useEffect } from "react";
-import { fetchLendingHistory } from "@/app/lib/actions";
+import { fetchLendingHistory } from "@/app/lib/data";
 import { ItemLendingHistory } from "@/util/types";
 import { Alert, Loader, Table, Container, Center } from "@mantine/core";
 

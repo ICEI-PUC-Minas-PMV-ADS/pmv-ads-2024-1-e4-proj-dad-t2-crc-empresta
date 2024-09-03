@@ -3,10 +3,10 @@ export interface Item {
     name: string;
     dateLend: string;
     studentName: string;
+    studentId?: string;
     code: string;
     isLend: boolean;
 }
-
 export interface Category {
     id: string;
     name: string;
@@ -41,7 +41,6 @@ export interface ItemLendingHistory {
     name: string;
     dateLend: string;
     dateReturn: string | null;
-    status: string;
 }
 
 export interface User {

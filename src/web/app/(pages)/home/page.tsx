@@ -4,24 +4,23 @@ import CardHome from "../../ui/comp/card/card-home"
 import Card from "../../ui/comp/card/card"
 import ReturnModal from '../../ui/comp/modal/return';
 import { useState, useEffect } from 'react';
-import { getAllItems } from '@/app/lib/actions';
-import { Item } from "@/util/types";
+import { getAllItemLending } from '@/app/lib/data';
+import { Item, ItemLendingHistory } from "@/util/types";
 import { Tabs } from '@mantine/core';
 import Emprestar from "../emprestar/page";
 import Historico from "../historico/page";
 
 
 export default function Home() {
-    const [lentItems, setLentItems] = useState<Item[]>([]);
+    const [lentItems, setLentItems] = useState<ItemLendingHistory[]>([]);
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     useEffect(() => {
         const fetchLentItems = async () => {
             try {
-                const items = await getAllItems();
-                const lentItems = items.filter((item: Item) => item.isLend);
+                const items = await getAllItemLending();
+                const lentItems = items.filter((item: ItemLendingHistory) => item.dateReturn===null);
                 setLentItems(lentItems);
-                console.log(lentItems)
             } catch (error) {
                 console.error('Erro ao obter itens emprestados:', error);
             }
